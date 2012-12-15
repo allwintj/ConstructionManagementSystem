@@ -1,0 +1,609 @@
+<Project>
+  <Name>HospitalManagementSystem</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>HmsDesign</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>AccessInfo</Name>
+        <Access>Public</Access>
+        <Location left="839" top="28" />
+        <Size width="354" height="213" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string Password</Member>
+        <Member type="Field">string UserId</Member>
+        <Member type="Field">bool IsRememberPassword</Member>
+        <Member type="Field">int UniqueId</Member>
+        <Member type="Field">string emailId</Member>
+        <Member type="Method">public void ValidateUserString(string userString)</Member>
+        <Member type="Method">public void AuthenticateUser(string username, string password)</Member>
+        <Member type="Method">public void RetrieveForgetPassword(string username, string password)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PersonalInfo</Name>
+        <Access>Public</Access>
+        <Location left="1009" top="276" />
+        <Size width="163" height="196" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string name</Member>
+        <Member type="Field">string address</Member>
+        <Member type="Field">string phoneNumber</Member>
+        <Member type="Field">string sex</Member>
+        <Member type="Field">string dob</Member>
+        <Member type="Field">string emergencyContact</Member>
+        <Member type="Method">public void AddPersonalInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DepartmentalInfo</Name>
+        <Access>Public</Access>
+        <Location left="1009" top="516" />
+        <Size width="176" height="213" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string phoneNo</Member>
+        <Member type="Field">string departmentName</Member>
+        <Member type="Field">string departmentId</Member>
+        <Member type="Field">string departmentMemberId</Member>
+        <Member type="Field">string departmentEmailId</Member>
+        <Member type="Method">public void AddDepartmentInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ConstructionSiteController</Name>
+        <Access>Public</Access>
+        <Location left="819" top="276" />
+        <Size width="163" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List&lt;WorkerInfo&gt; employees</Member>
+        <Member type="Field">List&lt;RawMaterialInfo&gt; resources</Member>
+        <Member type="Field">List&lt;RawMaterialInfo&gt; admins</Member>
+        <Member type="Field">List&lt;SiteInfo&gt; sites</Member>
+        <Member type="Field">List&lt;ConstructionInstruments&gt; instruments</Member>
+        <Member type="Field">List&lt;BillingInfo&gt; billingItems</Member>
+        <Member type="Method">public void GetReport()</Member>
+        <Member type="Method">public void GetUsageMatrix()</Member>
+        <Member type="Method">public string GetPatient()</Member>
+        <Member type="Method">public void GetEmployee()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>RawMaterialInfo</Name>
+        <Access>Public</Access>
+        <Location left="565" top="28" />
+        <Size width="177" height="196" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string itemName</Member>
+        <Member type="Field">int itemId</Member>
+        <Member type="Field">List&lt;string&gt; itemTags</Member>
+        <Member type="Field">int itemDescription</Member>
+        <Member type="Field">RawMaterialTypeEnum itemType</Member>
+        <Member type="Field">List&lt;WorkerInfo&gt; itemUsers</Member>
+        <Member type="Method">public void ItemGetUsage()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Enum">
+        <Name>RawMaterialTypeEnum</Name>
+        <Access>Public</Access>
+        <Location left="373" top="28" />
+        <Size width="163" height="197" />
+        <Collapsed>False</Collapsed>
+        <Value>Brick</Value>
+        <Value>Cement</Value>
+        <Value>Rod</Value>
+        <Value>Stone</Value>
+        <Value>StoneChips</Value>
+        <Value>Sand</Value>
+        <Value>Color</Value>
+        <Value>Wood</Value>
+      </Entity>
+      <Entity type="Class">
+        <Name>WorkerInfo</Name>
+        <Access>Public</Access>
+        <Location left="73" top="40" />
+        <Size width="209" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List&lt;ConstructionInstruments&gt; assginedItems</Member>
+        <Member type="Field">DepartmentalInfo deptDetails</Member>
+        <Member type="Field">PersonalInfo personalDetails</Member>
+        <Member type="Field">AccessInfo accessDetails</Member>
+        <Member type="Field">ExpertiseInfo expertise</Member>
+        <Member type="Field">List&lt;Responsibility&gt; responsibilities</Member>
+        <Member type="Method">public void GetAssigningHistory()</Member>
+        <Member type="Method">public void GetDetails()</Member>
+        <Member type="Method">public void CheckAccessForItems()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Enum">
+        <Name>ConstructionInstrumentsTypeEnum</Name>
+        <Access>Public</Access>
+        <Location left="371" top="294" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>Mixer</Value>
+        <Value>Grinder</Value>
+        <Value>Puller</Value>
+        <Value>StairCase</Value>
+        <Value>Basket</Value>
+      </Entity>
+      <Entity type="Enum">
+        <Name>WokerTypeEnum</Name>
+        <Access>Public</Access>
+        <Location left="73" top="294" />
+        <Size width="209" height="197" />
+        <Collapsed>False</Collapsed>
+        <Value>SiteManager</Value>
+        <Value>Labour</Value>
+        <Value>Helper</Value>
+        <Value>Contructor</Value>
+        <Value>Supplier</Value>
+        <Value>Porter</Value>
+        <Value>Engineer</Value>
+        <Value>Waiter</Value>
+      </Entity>
+      <Entity type="Class">
+        <Name>ExpertiseInfo</Name>
+        <Access>Public</Access>
+        <Location left="756" top="549" />
+        <Size width="228" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int yearsOfExperience</Member>
+        <Member type="Field">string Qualifications</Member>
+        <Member type="Field">string RegistrationId</Member>
+        <Member type="Field">WokerTypeEnum expertiseDomain</Member>
+        <Member type="Method">public int GetExperience()</Member>
+        <Member type="Method">public string GetRegNumber()</Member>
+        <Member type="Method">public WokerTypeEnum GetExpertise()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Responsibility</Name>
+        <Access>Public</Access>
+        <Location left="373" top="549" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string description</Member>
+        <Member type="Field">int id</Member>
+        <Member type="Field">List&lt;ConstructionInstruments&gt; relatedInstruments</Member>
+        <Member type="Field">List&lt;RawMaterialInfo&gt; relatedRawmaterials</Member>
+        <Member type="Field">List&lt;WorkerInfo&gt; relatedWorkers</Member>
+        <Member type="Field">WorkerInfo releatedSupervisor</Member>
+        <Member type="Method">public int GetStatus()</Member>
+        <Member type="Method">public string GetResponsible()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>BillingInfo</Name>
+        <Access>Public</Access>
+        <Location left="87" top="525" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int billAmount</Member>
+        <Member type="Field">int billingId</Member>
+        <Member type="Field">Responsibility responsibilityName</Member>
+        <Member type="Field">string status</Member>
+        <Member type="Method">public void NewMethod()</Member>
+        <Member type="Method">public int GetAmount()</Member>
+        <Member type="Method">public string GetStatus()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SiteInfo</Name>
+        <Access>Public</Access>
+        <Location left="373" top="849" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string name</Member>
+        <Member type="Field">string location</Member>
+        <Member type="Field">string customerName</Member>
+        <Member type="Field">double valuation</Member>
+        <Member type="Field">DesignInfo design</Member>
+        <Member type="Field">List&lt;Responsibility&gt; responsibilities</Member>
+        <Member type="Field">WorkerInfo superViser</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DesignInfo</Name>
+        <Access>Public</Access>
+        <Location left="632" top="849" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string name</Member>
+        <Member type="Field">string softwareUsed</Member>
+        <Member type="Field">WorkerInfo engineer</Member>
+        <Member type="Field">string ImageFile</Member>
+        <Member type="Field">double estimate</Member>
+        <Member type="Field">string timeRequired</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ConstructionInstruments</Name>
+        <Access>Public</Access>
+        <Location left="577" top="294" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String itemName</Member>
+        <Member type="Field">private Int32 itemId</Member>
+        <Member type="Field">private List&lt;String&gt; itemTags</Member>
+        <Member type="Field">private Int32 itemDescription</Member>
+        <Member type="Field">private ConstructionInstrumentsTypeEnum itemType</Member>
+        <Member type="Field">private List&lt;WorkerInfo&gt; itemUsers</Member>
+        <Member type="Field">private List&lt;RawMaterialInfo&gt; rawMaterialSupportedList</Member>
+        <Member type="Constructor">public ConstructionInstruments()</Member>
+        <Member type="Method">public Void ItemGetUsage()</Member>
+        <Member type="Method">public List&lt;RawMaterialInfo&gt; GetRawMaterialList()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>HmsDesign.dll</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>DepartmentalInfo</Name>
+        <Access>Public</Access>
+        <Location left="436" top="927" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String phoneNo</Member>
+        <Member type="Field">private String departmentName</Member>
+        <Member type="Field">private String departmentId</Member>
+        <Member type="Field">private String departmentMemberId</Member>
+        <Member type="Field">private String departmentEmailId</Member>
+        <Member type="Constructor">public DepartmentalInfo()</Member>
+        <Member type="Method">public Void AddDepartmentInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PersonalInfo</Name>
+        <Access>Public</Access>
+        <Location left="224" top="927" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private String address</Member>
+        <Member type="Field">private String phoneNumber</Member>
+        <Member type="Field">private String sex</Member>
+        <Member type="Field">private String dob</Member>
+        <Member type="Field">private String emergencyContact</Member>
+        <Member type="Constructor">public PersonalInfo()</Member>
+        <Member type="Method">public Void AddPersonalInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SiteInfo</Name>
+        <Access>Public</Access>
+        <Location left="12" top="927" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private String location</Member>
+        <Member type="Field">private String customerName</Member>
+        <Member type="Field">private Double valuation</Member>
+        <Member type="Field">private DesignInfo design</Member>
+        <Member type="Field">private List&lt;Responsibility&gt; responsibilities</Member>
+        <Member type="Field">private WorkerInfo superViser</Member>
+        <Member type="Constructor">public SiteInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ConstructionInstruments</Name>
+        <Access>Public</Access>
+        <Location left="1072" top="326" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String itemName</Member>
+        <Member type="Field">private Int32 itemId</Member>
+        <Member type="Field">private List&lt;String&gt; itemTags</Member>
+        <Member type="Field">private Int32 itemDescription</Member>
+        <Member type="Field">private ConstructionInstrumentsTypeEnum itemType</Member>
+        <Member type="Field">private List&lt;WorkerInfo&gt; itemUsers</Member>
+        <Member type="Field">private List&lt;RawMaterialInfo&gt; rawMaterialSupportedList</Member>
+        <Member type="Constructor">public ConstructionInstruments()</Member>
+        <Member type="Method">public Void ItemGetUsage()</Member>
+        <Member type="Method">public List&lt;RawMaterialInfo&gt; GetRawMaterialList()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Responsibility</Name>
+        <Access>Public</Access>
+        <Location left="860" top="326" />
+        <Size width="162" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String description</Member>
+        <Member type="Field">private Int32 id</Member>
+        <Member type="Field">private List&lt;ConstructionInstruments&gt; relatedInstruments</Member>
+        <Member type="Field">private List&lt;RawMaterialInfo&gt; relatedRawmaterials</Member>
+        <Member type="Field">private List&lt;WorkerInfo&gt; relatedWorkers</Member>
+        <Member type="Field">private WorkerInfo releatedSupervisor</Member>
+        <Member type="Constructor">public Responsibility()</Member>
+        <Member type="Method">public Int32 GetStatus()</Member>
+        <Member type="Method">public String GetResponsible()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>BillingInfo</Name>
+        <Access>Public</Access>
+        <Location left="648" top="326" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Int32 billAmount</Member>
+        <Member type="Field">private Int32 billingId</Member>
+        <Member type="Field">private Responsibility responsibilityName</Member>
+        <Member type="Field">private String status</Member>
+        <Member type="Constructor">public BillingInfo()</Member>
+        <Member type="Method">public Void NewMethod()</Member>
+        <Member type="Method">public Int32 GetAmount()</Member>
+        <Member type="Method">public String GetStatus()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AccessInfo</Name>
+        <Access>Public</Access>
+        <Location left="436" top="326" />
+        <Size width="162" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String Password</Member>
+        <Member type="Field">private String UserId</Member>
+        <Member type="Field">private Boolean IsRememberPassword</Member>
+        <Member type="Field">private Int32 UniqueId</Member>
+        <Member type="Field">private String emailId</Member>
+        <Member type="Constructor">public AccessInfo()</Member>
+        <Member type="Method">public Void ValidateUserString(String userString)</Member>
+        <Member type="Method">public Void AuthenticateUser(String username, String password)</Member>
+        <Member type="Method">public Void RetrieveForgetPassword(String username, String password)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>WorkerInfo</Name>
+        <Access>Public</Access>
+        <Location left="224" top="326" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private List&lt;ConstructionInstruments&gt; assginedItems</Member>
+        <Member type="Field">private DepartmentalInfo deptDetails</Member>
+        <Member type="Field">private PersonalInfo personalDetails</Member>
+        <Member type="Field">private AccessInfo accessDetails</Member>
+        <Member type="Field">private ExpertiseInfo expertise</Member>
+        <Member type="Field">private List&lt;Responsibility&gt; responsibilities</Member>
+        <Member type="Constructor">public WorkerInfo()</Member>
+        <Member type="Method">public Void GetAssigningHistory()</Member>
+        <Member type="Method">public Void GetDetails()</Member>
+        <Member type="Method">public Void CheckAccessForItems()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>RawMaterialInfo</Name>
+        <Access>Public</Access>
+        <Location left="12" top="326" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String itemName</Member>
+        <Member type="Field">private Int32 itemId</Member>
+        <Member type="Field">private List&lt;String&gt; itemTags</Member>
+        <Member type="Field">private Int32 itemDescription</Member>
+        <Member type="Field">private RawMaterialTypeEnum itemType</Member>
+        <Member type="Field">private List&lt;WorkerInfo&gt; itemUsers</Member>
+        <Member type="Constructor">public RawMaterialInfo()</Member>
+        <Member type="Method">public Void ItemGetUsage()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ConstructionSiteController</Name>
+        <Access>Public</Access>
+        <Location left="1072" top="12" />
+        <Size width="162" height="264" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private List&lt;WorkerInfo&gt; employees</Member>
+        <Member type="Field">private List&lt;RawMaterialInfo&gt; resources</Member>
+        <Member type="Field">private List&lt;RawMaterialInfo&gt; admins</Member>
+        <Member type="Field">private List&lt;SiteInfo&gt; sites</Member>
+        <Member type="Field">private List&lt;ConstructionInstruments&gt; instruments</Member>
+        <Member type="Field">private List&lt;BillingInfo&gt; billingItems</Member>
+        <Member type="Constructor">public ConstructionSiteController()</Member>
+        <Member type="Method">public Void GetReport()</Member>
+        <Member type="Method">public Void GetUsageMatrix()</Member>
+        <Member type="Method">public String GetPatient()</Member>
+        <Member type="Method">public Void GetEmployee()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DesignInfo</Name>
+        <Access>Public</Access>
+        <Location left="860" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private String softwareUsed</Member>
+        <Member type="Field">private WorkerInfo engineer</Member>
+        <Member type="Field">private String ImageFile</Member>
+        <Member type="Field">private Double estimate</Member>
+        <Member type="Field">private String timeRequired</Member>
+        <Member type="Constructor">public DesignInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ExpertiseInfo</Name>
+        <Access>Public</Access>
+        <Location left="648" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Int32 yearsOfExperience</Member>
+        <Member type="Field">private String Qualifications</Member>
+        <Member type="Field">private String RegistrationId</Member>
+        <Member type="Field">private WokerTypeEnum expertiseDomain</Member>
+        <Member type="Constructor">public ExpertiseInfo()</Member>
+        <Member type="Method">public Int32 GetExperience()</Member>
+        <Member type="Method">public String GetRegNumber()</Member>
+        <Member type="Method">public WokerTypeEnum GetExpertise()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Enum">
+        <Name>WokerTypeEnum</Name>
+        <Access>Public</Access>
+        <Location left="436" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>SiteManager = 0</Value>
+        <Value>Labour = 1</Value>
+        <Value>Helper = 2</Value>
+        <Value>Contructor = 3</Value>
+        <Value>Supplier = 4</Value>
+        <Value>Porter = 5</Value>
+        <Value>Engineer = 6</Value>
+        <Value>Waiter = 7</Value>
+      </Entity>
+      <Entity type="Enum">
+        <Name>ConstructionInstrumentsTypeEnum</Name>
+        <Access>Public</Access>
+        <Location left="224" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>Mixer = 0</Value>
+        <Value>Grinder = 1</Value>
+        <Value>Puller = 2</Value>
+        <Value>StairCase = 3</Value>
+        <Value>Basket = 4</Value>
+      </Entity>
+      <Entity type="Enum">
+        <Name>RawMaterialTypeEnum</Name>
+        <Access>Public</Access>
+        <Location left="12" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>Brick = 0</Value>
+        <Value>Cement = 1</Value>
+        <Value>Rod = 2</Value>
+        <Value>Stone = 3</Value>
+        <Value>StoneChips = 4</Value>
+        <Value>Sand = 5</Value>
+        <Value>Color = 6</Value>
+        <Value>Wood = 7</Value>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="2" second="10">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>design</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="2" second="7">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>superViser</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="3" second="13">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>itemType</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="4" second="7">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>releatedSupervisor</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="5" second="4">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>responsibilityName</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="7" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>deptDetails</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="7" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>personalDetails</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="7" second="6">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>accessDetails</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="7" second="11">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>expertise</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="8" second="14">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>itemType</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="10" second="7">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>engineer</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="11" second="12">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>expertiseDomain</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
