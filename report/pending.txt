@@ -1,0 +1,57 @@
+check background and object
+check Functional Requirement
+check TechnicalSpecification
+Gantt chart
+Pert Chart
+Scope of the Solution
+dfd
+check erd
+
+Class Diagram
+
+Database & Table Details
+Module Description
+add "estimation"
+Add "Data Structure"
+add "Process Logic"
+Add "Implementation Methodology"
+Add details in "List of Reports"
+Enhance more in "Future Scope and Further enhancement of the project:"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
