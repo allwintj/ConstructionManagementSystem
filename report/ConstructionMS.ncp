@@ -1,0 +1,535 @@
+<Project>
+  <Name>ConstructionMS</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>HmsDesign.dll</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>WorkerInfo</Name>
+        <Access>Public</Access>
+        <Location left="496" top="722" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private List&lt;ConstructionInstruments&gt; assginedItems</Member>
+        <Member type="Field">private DepartmentalInfo deptDetails</Member>
+        <Member type="Field">private PersonalInfo personalDetails</Member>
+        <Member type="Field">private AccessInfo accessDetails</Member>
+        <Member type="Field">private ExpertiseInfo expertise</Member>
+        <Member type="Field">private List&lt;Responsibility&gt; responsibilities</Member>
+        <Member type="Constructor">public WorkerInfo()</Member>
+        <Member type="Method">public Void GetAssigningHistory()</Member>
+        <Member type="Method">public Void GetDetails()</Member>
+        <Member type="Method">public Void CheckAccessForItems()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>PersonalInfo</Name>
+        <Access>Public</Access>
+        <Location left="224" top="606" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private String address</Member>
+        <Member type="Field">private String phoneNumber</Member>
+        <Member type="Field">private String sex</Member>
+        <Member type="Field">private String dob</Member>
+        <Member type="Field">private String emergencyContact</Member>
+        <Member type="Constructor">public PersonalInfo()</Member>
+        <Member type="Method">public Void AddPersonalInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DesignInfo</Name>
+        <Access>Public</Access>
+        <Location left="12" top="606" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private String softwareUsed</Member>
+        <Member type="Field">private WorkerInfo engineer</Member>
+        <Member type="Field">private String ImageFile</Member>
+        <Member type="Field">private Double estimate</Member>
+        <Member type="Field">private String timeRequired</Member>
+        <Member type="Constructor">public DesignInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ConstructionInstruments</Name>
+        <Access>Public</Access>
+        <Location left="655" top="316" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String itemName</Member>
+        <Member type="Field">private String itemId</Member>
+        <Member type="Field">private List&lt;String&gt; itemTags</Member>
+        <Member type="Field">private String itemDescription</Member>
+        <Member type="Field">private ConstructionInstrumentsTypeEnum itemType</Member>
+        <Member type="Field">private List&lt;WorkerInfo&gt; itemUsers</Member>
+        <Member type="Field">private List&lt;RawMaterialInfo&gt; rawMaterialSupportedList</Member>
+        <Member type="Constructor">public ConstructionInstruments()</Member>
+        <Member type="Method">public Void ItemGetUsage()</Member>
+        <Member type="Method">public List&lt;RawMaterialInfo&gt; GetRawMaterialList()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DepartmentalInfo</Name>
+        <Access>Public</Access>
+        <Location left="567" top="1027" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String phoneNo</Member>
+        <Member type="Field">private String departmentName</Member>
+        <Member type="Field">private String departmentId</Member>
+        <Member type="Field">private String departmentMemberId</Member>
+        <Member type="Field">private String departmentEmailId</Member>
+        <Member type="Constructor">public DepartmentalInfo()</Member>
+        <Member type="Method">public Void AddDepartmentInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Responsibility</Name>
+        <Access>Public</Access>
+        <Location left="450" top="292" />
+        <Size width="162" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String description</Member>
+        <Member type="Field">private Int32 id</Member>
+        <Member type="Field">private List&lt;ConstructionInstruments&gt; relatedInstruments</Member>
+        <Member type="Field">private List&lt;RawMaterialInfo&gt; relatedRawmaterials</Member>
+        <Member type="Field">private List&lt;WorkerInfo&gt; relatedWorkers</Member>
+        <Member type="Field">private WorkerInfo releatedSupervisor</Member>
+        <Member type="Constructor">public Responsibility()</Member>
+        <Member type="Method">public Int32 GetStatus()</Member>
+        <Member type="Method">public String GetResponsible()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ConstructionSiteController</Name>
+        <Access>Public</Access>
+        <Location left="12" top="889" />
+        <Size width="162" height="264" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private List&lt;WorkerInfo&gt; employees</Member>
+        <Member type="Field">private List&lt;RawMaterialInfo&gt; resources</Member>
+        <Member type="Field">private List&lt;RawMaterialInfo&gt; admins</Member>
+        <Member type="Field">private List&lt;SiteInfo&gt; sites</Member>
+        <Member type="Field">private List&lt;ConstructionInstruments&gt; instruments</Member>
+        <Member type="Field">private List&lt;BillingInfo&gt; billingItems</Member>
+        <Member type="Constructor">public ConstructionSiteController()</Member>
+        <Member type="Method">public Void GetReport()</Member>
+        <Member type="Method">public Void GetUsageMatrix()</Member>
+        <Member type="Method">public String GetPatient()</Member>
+        <Member type="Method">public Void GetEmployee()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ExpertiseInfo</Name>
+        <Access>Public</Access>
+        <Location left="224" top="292" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Int32 yearsOfExperience</Member>
+        <Member type="Field">private String Qualifications</Member>
+        <Member type="Field">private String RegistrationId</Member>
+        <Member type="Field">private WokerTypeEnum expertiseDomain</Member>
+        <Member type="Constructor">public ExpertiseInfo()</Member>
+        <Member type="Method">public Int32 GetExperience()</Member>
+        <Member type="Method">public String GetRegNumber()</Member>
+        <Member type="Method">public WokerTypeEnum GetExpertise()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>RawMaterialInfo</Name>
+        <Access>Public</Access>
+        <Location left="12" top="292" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String itemName</Member>
+        <Member type="Field">private Int32 itemId</Member>
+        <Member type="Field">private List&lt;String&gt; itemTags</Member>
+        <Member type="Field">private Int32 itemDescription</Member>
+        <Member type="Field">private RawMaterialTypeEnum itemType</Member>
+        <Member type="Field">private List&lt;WorkerInfo&gt; itemUsers</Member>
+        <Member type="Constructor">public RawMaterialInfo()</Member>
+        <Member type="Method">public Void ItemGetUsage()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>BillingInfo</Name>
+        <Access>Public</Access>
+        <Location left="655" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Int32 billAmount</Member>
+        <Member type="Field">private Int32 billingId</Member>
+        <Member type="Field">private Responsibility responsibilityName</Member>
+        <Member type="Field">private String status</Member>
+        <Member type="Constructor">public BillingInfo()</Member>
+        <Member type="Method">public Void NewMethod()</Member>
+        <Member type="Method">public Int32 GetAmount()</Member>
+        <Member type="Method">public String GetStatus()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SiteInfo</Name>
+        <Access>Public</Access>
+        <Location left="224" top="889" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String name</Member>
+        <Member type="Field">private String location</Member>
+        <Member type="Field">private String customerName</Member>
+        <Member type="Field">private Double valuation</Member>
+        <Member type="Field">private DesignInfo design</Member>
+        <Member type="Field">private List&lt;Responsibility&gt; responsibilities</Member>
+        <Member type="Field">private WorkerInfo superViser</Member>
+        <Member type="Constructor">public SiteInfo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>AccessInfo</Name>
+        <Access>Public</Access>
+        <Location left="416" top="1248" />
+        <Size width="162" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String Password</Member>
+        <Member type="Field">private String UserId</Member>
+        <Member type="Field">private Boolean IsRememberPassword</Member>
+        <Member type="Field">private Int32 UniqueId</Member>
+        <Member type="Field">private String emailId</Member>
+        <Member type="Constructor">public AccessInfo()</Member>
+        <Member type="Method">public Void ValidateUserString(String userString)</Member>
+        <Member type="Method">public Void AuthenticateUser(String username, String password)</Member>
+        <Member type="Method">public Void RetrieveForgetPassword(String username, String password)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Enum">
+        <Name>WokerTypeEnum</Name>
+        <Access>Public</Access>
+        <Location left="436" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>SiteManager = 0</Value>
+        <Value>Labour = 1</Value>
+        <Value>Helper = 2</Value>
+        <Value>Contructor = 3</Value>
+        <Value>Supplier = 4</Value>
+        <Value>Porter = 5</Value>
+        <Value>Engineer = 6</Value>
+        <Value>Waiter = 7</Value>
+      </Entity>
+      <Entity type="Enum">
+        <Name>RawMaterialTypeEnum</Name>
+        <Access>Public</Access>
+        <Location left="224" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>Brick = 0</Value>
+        <Value>Cement = 1</Value>
+        <Value>Rod = 2</Value>
+        <Value>Stone = 3</Value>
+        <Value>StoneChips = 4</Value>
+        <Value>Sand = 5</Value>
+        <Value>Color = 6</Value>
+        <Value>Wood = 7</Value>
+      </Entity>
+      <Entity type="Enum">
+        <Name>ConstructionInstrumentsTypeEnum</Name>
+        <Access>Public</Access>
+        <Location left="12" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>Mixer = 0</Value>
+        <Value>Grinder = 1</Value>
+        <Value>Puller = 2</Value>
+        <Value>StairCase = 3</Value>
+        <Value>Basket = 4</Value>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="0" second="4">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>deptDetails</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="0" second="1">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>personalDetails</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="0" second="11">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>accessDetails</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="0" second="7">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>expertise</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="2" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>engineer</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="3" second="14">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>itemType</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="5" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>releatedSupervisor</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="7" second="12">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>expertiseDomain</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="8" second="13">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>itemType</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="9" second="5">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>responsibilityName</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="10" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>design</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="10" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>superViser</StartRole>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>CMSGUI.exe</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>WorkerBrowser</Name>
+        <Access>Public</Access>
+        <Location left="648" top="399" />
+        <Size width="162" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">internal Button showPaymentsBtn</Member>
+        <Member type="Field">internal Button addBtn</Member>
+        <Member type="Field">internal Button deleteBtn</Member>
+        <Member type="Field">internal Button printBtn</Member>
+        <Member type="Field">internal ListView businessPersonListView</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public WorkerBrowser()</Member>
+        <Member type="Method">private Void addBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void deleteBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void showPaymentsBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>InstrumentsWindow</Name>
+        <Access>Public</Access>
+        <Location left="436" top="385" />
+        <Size width="162" height="298" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">internal Button showPaymentsBtn</Member>
+        <Member type="Field">internal Button addBtn</Member>
+        <Member type="Field">internal Button deleteBtn</Member>
+        <Member type="Field">internal Button printBtn</Member>
+        <Member type="Field">internal ListView businessPersonListView</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public InstrumentsWindow()</Member>
+        <Member type="Method">private Void showPaymentsBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void addBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void deleteBtn_Click_1(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void printBtn_Click_1(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>LoginWindow</Name>
+        <Access>Public</Access>
+        <Location left="224" top="467" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">internal Expander expander1</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public LoginWindow()</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SiteBrowser</Name>
+        <Access>Public</Access>
+        <Location left="12" top="467" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">internal Button addBtn</Member>
+        <Member type="Field">internal Button deleteBtn</Member>
+        <Member type="Field">internal Button printBtn</Member>
+        <Member type="Field">internal ListView businessPersonListView</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public SiteBrowser()</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>RawMaterialWindow</Name>
+        <Access>Public</Access>
+        <Location left="648" top="12" />
+        <Size width="162" height="298" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">internal Button showPaymentsBtn</Member>
+        <Member type="Field">internal Button addBtn</Member>
+        <Member type="Field">internal Button deleteBtn</Member>
+        <Member type="Field">internal Button printBtn</Member>
+        <Member type="Field">internal ListView businessPersonListView</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public RawMaterialWindow()</Member>
+        <Member type="Method">private Void printBtn_Click_1(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void deleteBtn_Click_1(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void addBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void showPaymentsBtn_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>App</Name>
+        <Access>Public</Access>
+        <Location left="436" top="12" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public App()</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">public static Void Main()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>BillingWindow</Name>
+        <Access>Public</Access>
+        <Location left="224" top="12" />
+        <Size width="162" height="366" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">internal DatePicker datePicker</Member>
+        <Member type="Field">internal TextBlock invoiceNumberTB</Member>
+        <Member type="Field">internal Button siteSelectBtn</Member>
+        <Member type="Field">internal TextBox siteInfoTb</Member>
+        <Member type="Field">internal TextBlock sellerInfoTb</Member>
+        <Member type="Field">internal TextBox paymentAmountTB</Member>
+        <Member type="Field">internal Button calculateTotalBtn</Member>
+        <Member type="Field">internal Label totalNoOfItems</Member>
+        <Member type="Field">internal Label itemUnit</Member>
+        <Member type="Field">internal Label totalAmountLabel</Member>
+        <Member type="Field">internal Button calculateVATBtn</Member>
+        <Member type="Field">internal Label vatAmount</Member>
+        <Member type="Field">internal ListView billingItemListView</Member>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public BillingWindow()</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MainWindow</Name>
+        <Access>Public</Access>
+        <Location left="12" top="12" />
+        <Size width="162" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private Boolean _contentLoaded</Member>
+        <Member type="Constructor">public MainWindow()</Member>
+        <Member type="Method">private Void Button_Click(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void Button_Click_1(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void Button_Click_5(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void Button_Click_6(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void Button_Click_8(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void Button_Click_2(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void Button_Click_4(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">private Void Button_Click_3(Object sender, RoutedEventArgs e)</Member>
+        <Member type="Method">public Void InitializeComponent()</Member>
+        <Member type="Method">Void System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>CMSEngine</Name>
+        <Access>Public</Access>
+        <Location left="12" top="318" />
+        <Size width="162" height="122" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public CMSEngine()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>
