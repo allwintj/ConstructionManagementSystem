@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="accessDetails field" Url="html/120986572.htm" />
+  <HelpKINode Title="AccessInfo class" Url="html/2049523578.htm" />
+  <HelpKINode Title="AccessInfo class" Url="html/575987123.htm" />
+  <HelpKINode Title="AccessInfo class">
+    <HelpKINode Title="about AccessInfo class" Url="html/575987123.htm" />
+    <HelpKINode Title="all members" Url="html/2049523578.htm" />
+    <HelpKINode Title="fields" Url="html/328560214.htm" />
+    <HelpKINode Title="methods" Url="html/356219869.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AccessInfo.AuthenticateUser method" Url="html/1089015997.htm" />
+  <HelpKINode Title="AccessInfo.emailId field" Url="html/220404164.htm" />
+  <HelpKINode Title="AccessInfo.IsRememberPassword field" Url="html/1077683744.htm" />
+  <HelpKINode Title="AccessInfo.Password field" Url="html/100121108.htm" />
+  <HelpKINode Title="AccessInfo.RetrieveForgetPassword method" Url="html/202867644.htm" />
+  <HelpKINode Title="AccessInfo.UniqueId field" Url="html/1133818978.htm" />
+  <HelpKINode Title="AccessInfo.UserId field" Url="html/1538827911.htm" />
+  <HelpKINode Title="AccessInfo.ValidateUserString method" Url="html/343481201.htm" />
+  <HelpKINode Title="AddDepartmentInfo method" Url="html/411508097.htm" />
+  <HelpKINode Title="AddPersonalInfo method" Url="html/1126779263.htm" />
+  <HelpKINode Title="address field" Url="html/465662886.htm" />
+  <HelpKINode Title="admins field" Url="html/1309327657.htm" />
+  <HelpKINode Title="App class" Url="html/1792056295.htm" />
+  <HelpKINode Title="App class" Url="html/221994218.htm" />
+  <HelpKINode Title="App class">
+    <HelpKINode Title="about App class" Url="html/221994218.htm" />
+    <HelpKINode Title="all members" Url="html/1792056295.htm" />
+    <HelpKINode Title="constructor" Url="html/539698418.htm" />
+  </HelpKINode>
+  <HelpKINode Title="App.App constructor" Url="html/539698418.htm" />
+  <HelpKINode Title="assginedItems field" Url="html/1632557428.htm" />
+  <HelpKINode Title="AuthenticateUser method" Url="html/1089015997.htm" />
+  <HelpKINode Title="Basket enumeration member" Url="html/1683502604.htm" />
+  <HelpKINode Title="Basket field" Url="html/1956985092.htm" />
+  <HelpKINode Title="billAmount field" Url="html/877913580.htm" />
+  <HelpKINode Title="billingId field" Url="html/1594834234.htm" />
+  <HelpKINode Title="BillingInfo class" Url="html/1152870358.htm" />
+  <HelpKINode Title="BillingInfo class" Url="html/1212753571.htm" />
+  <HelpKINode Title="BillingInfo class">
+    <HelpKINode Title="about BillingInfo class" Url="html/1212753571.htm" />
+    <HelpKINode Title="all members" Url="html/1152870358.htm" />
+    <HelpKINode Title="fields" Url="html/1361382999.htm" />
+    <HelpKINode Title="methods" Url="html/1590942812.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BillingInfo.billAmount field" Url="html/877913580.htm" />
+  <HelpKINode Title="BillingInfo.billingId field" Url="html/1594834234.htm" />
+  <HelpKINode Title="BillingInfo.GetAmount method" Url="html/407393538.htm" />
+  <HelpKINode Title="BillingInfo.GetStatus method" Url="html/953287525.htm" />
+  <HelpKINode Title="BillingInfo.NewMethod method" Url="html/1351277059.htm" />
+  <HelpKINode Title="BillingInfo.responsibilityName field" Url="html/1792121004.htm" />
+  <HelpKINode Title="BillingInfo.status field" Url="html/2129764333.htm" />
+  <HelpKINode Title="billingItems field" Url="html/573018756.htm" />
+  <HelpKINode Title="BillingWindow class" Url="html/1655098306.htm" />
+  <HelpKINode Title="BillingWindow class" Url="html/1977005145.htm" />
+  <HelpKINode Title="BillingWindow class">
+    <HelpKINode Title="about BillingWindow class" Url="html/1977005145.htm" />
+    <HelpKINode Title="all members" Url="html/1655098306.htm" />
+    <HelpKINode Title="constructor" Url="html/1043348951.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BillingWindow.BillingWindow constructor" Url="html/1043348951.htm" />
+  <HelpKINode Title="Brick enumeration member" Url="html/436796132.htm" />
+  <HelpKINode Title="Brick field" Url="html/181513941.htm" />
+  <HelpKINode Title="Cement enumeration member" Url="html/436796132.htm" />
+  <HelpKINode Title="Cement field" Url="html/235014664.htm" />
+  <HelpKINode Title="CheckAccessForItems method" Url="html/840938835.htm" />
+  <HelpKINode Title="CMSEngine class" Url="html/182316424.htm" />
+  <HelpKINode Title="CMSEngine class">
+    <HelpKINode Title="about CMSEngine class" Url="html/182316424.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CMSGUI namespace" Url="html/159291287.htm" />
+  <HelpKINode Title="CMSGUI.App class" Url="html/1792056295.htm" />
+  <HelpKINode Title="CMSGUI.App class" Url="html/221994218.htm" />
+  <HelpKINode Title="CMSGUI.BillingWindow class" Url="html/1655098306.htm" />
+  <HelpKINode Title="CMSGUI.BillingWindow class" Url="html/1977005145.htm" />
+  <HelpKINode Title="CMSGUI.InstrumentsWindow class" Url="html/2111732801.htm" />
+  <HelpKINode Title="CMSGUI.InstrumentsWindow class" Url="html/31796161.htm" />
+  <HelpKINode Title="CMSGUI.LoginWindow class" Url="html/1566806557.htm" />
+  <HelpKINode Title="CMSGUI.LoginWindow class" Url="html/1642715899.htm" />
+  <HelpKINode Title="CMSGUI.MainWindow class" Url="html/1000458020.htm" />
+  <HelpKINode Title="CMSGUI.MainWindow class" Url="html/970505748.htm" />
+  <HelpKINode Title="CMSGUI.Properties namespace" Url="html/104865227.htm" />
+  <HelpKINode Title="CMSGUI.Properties.Resources class" Url="html/1656772804.htm" />
+  <HelpKINode Title="CMSGUI.Properties.Resources class" Url="html/766953905.htm" />
+  <HelpKINode Title="CMSGUI.Properties.Settings class" Url="html/450526916.htm" />
+  <HelpKINode Title="CMSGUI.Properties.Settings class" Url="html/491127809.htm" />
+  <HelpKINode Title="CMSGUI.RawMaterialWindow class" Url="html/1657632559.htm" />
+  <HelpKINode Title="CMSGUI.RawMaterialWindow class" Url="html/871740525.htm" />
+  <HelpKINode Title="CMSGUI.SiteBrowser class" Url="html/1129460086.htm" />
+  <HelpKINode Title="CMSGUI.SiteBrowser class" Url="html/2083827607.htm" />
+  <HelpKINode Title="CMSGUI.WorkerBrowser class" Url="html/1408277995.htm" />
+  <HelpKINode Title="CMSGUI.WorkerBrowser class" Url="html/1868505748.htm" />
+  <HelpKINode Title="CMSStorage class" Url="html/1394862953.htm" />
+  <HelpKINode Title="CMSStorage class">
+    <HelpKINode Title="about CMSStorage class" Url="html/1394862953.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CMSStorage namespace" Url="html/516726414.htm" />
+  <HelpKINode Title="CMSStorage.CMSStorage class" Url="html/1394862953.htm" />
+  <HelpKINode Title="Color enumeration member" Url="html/436796132.htm" />
+  <HelpKINode Title="Color field" Url="html/1730075732.htm" />
+  <HelpKINode Title="ConstructionEngine namespace" Url="html/1953328974.htm" />
+  <HelpKINode Title="ConstructionEngine.CMSEngine class" Url="html/182316424.htm" />
+  <HelpKINode Title="ConstructionInstruments class" Url="html/1952596775.htm" />
+  <HelpKINode Title="ConstructionInstruments class" Url="html/835937629.htm" />
+  <HelpKINode Title="ConstructionInstruments class">
+    <HelpKINode Title="about ConstructionInstruments class" Url="html/835937629.htm" />
+    <HelpKINode Title="all members" Url="html/1952596775.htm" />
+    <HelpKINode Title="fields" Url="html/2138942375.htm" />
+    <HelpKINode Title="methods" Url="html/1739235622.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConstructionInstruments.GetRawMaterialList method" Url="html/1154596408.htm" />
+  <HelpKINode Title="ConstructionInstruments.itemDescription field" Url="html/1222816525.htm" />
+  <HelpKINode Title="ConstructionInstruments.ItemGetUsage method" Url="html/774628511.htm" />
+  <HelpKINode Title="ConstructionInstruments.itemId field" Url="html/1345475222.htm" />
+  <HelpKINode Title="ConstructionInstruments.itemName field" Url="html/271823042.htm" />
+  <HelpKINode Title="ConstructionInstruments.itemTags field" Url="html/1515959828.htm" />
+  <HelpKINode Title="ConstructionInstruments.itemType field" Url="html/1608954058.htm" />
+  <HelpKINode Title="ConstructionInstruments.itemUsers field" Url="html/253809987.htm" />
+  <HelpKINode Title="ConstructionInstruments.rawMaterialSupportedList field" Url="html/877002367.htm" />
+  <HelpKINode Title="ConstructionInstrumentsTypeEnum enumeration" Url="html/1683502604.htm" />
+  <HelpKINode Title="ConstructionInstrumentsTypeEnum.Basket field" Url="html/1956985092.htm" />
+  <HelpKINode Title="ConstructionInstrumentsTypeEnum.Grinder field" Url="html/1852364945.htm" />
+  <HelpKINode Title="ConstructionInstrumentsTypeEnum.Mixer field" Url="html/1394956462.htm" />
+  <HelpKINode Title="ConstructionInstrumentsTypeEnum.Puller field" Url="html/2107174819.htm" />
+  <HelpKINode Title="ConstructionInstrumentsTypeEnum.StairCase field" Url="html/1763534544.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData namespace" Url="html/259803345.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.AccessInfo class" Url="html/2049523578.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.AccessInfo class" Url="html/575987123.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.BillingInfo class" Url="html/1152870358.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.BillingInfo class" Url="html/1212753571.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.ConstructionInstruments class" Url="html/1952596775.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.ConstructionInstruments class" Url="html/835937629.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.ConstructionInstrumentsTypeEnum enumeration" Url="html/1683502604.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.ConstructionSiteController class" Url="html/1086981002.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.ConstructionSiteController class" Url="html/881018288.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.DepartmentalInfo class" Url="html/2126757895.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.DepartmentalInfo class" Url="html/525857389.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.DesignInfo class" Url="html/419604453.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.DesignInfo class" Url="html/552845120.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.ExpertiseInfo class" Url="html/1561556006.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.ExpertiseInfo class" Url="html/1670415788.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.PersonalInfo class" Url="html/1167163210.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.PersonalInfo class" Url="html/362754556.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.RawMaterialInfo class" Url="html/1652985359.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.RawMaterialInfo class" Url="html/2054289075.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.RawMaterialTypeEnum enumeration" Url="html/436796132.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.Responsibility class" Url="html/1385860226.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.Responsibility class" Url="html/799514988.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.SiteInfo class" Url="html/1760268400.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.SiteInfo class" Url="html/347739663.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.WokerTypeEnum enumeration" Url="html/262071699.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.WorkerInfo class" Url="html/1488252243.htm" />
+  <HelpKINode Title="ConstructionManagementSystem.CmsData.WorkerInfo class" Url="html/511070955.htm" />
+  <HelpKINode Title="ConstructionSiteController class" Url="html/1086981002.htm" />
+  <HelpKINode Title="ConstructionSiteController class" Url="html/881018288.htm" />
+  <HelpKINode Title="ConstructionSiteController class">
+    <HelpKINode Title="about ConstructionSiteController class" Url="html/881018288.htm" />
+    <HelpKINode Title="all members" Url="html/1086981002.htm" />
+    <HelpKINode Title="fields" Url="html/2053212061.htm" />
+    <HelpKINode Title="methods" Url="html/1730456355.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConstructionSiteController.admins field" Url="html/1309327657.htm" />
+  <HelpKINode Title="ConstructionSiteController.billingItems field" Url="html/573018756.htm" />
+  <HelpKINode Title="ConstructionSiteController.employees field" Url="html/1656741952.htm" />
+  <HelpKINode Title="ConstructionSiteController.GetEmployee method" Url="html/443659807.htm" />
+  <HelpKINode Title="ConstructionSiteController.GetPatient method" Url="html/565748546.htm" />
+  <HelpKINode Title="ConstructionSiteController.GetReport method" Url="html/2095394174.htm" />
+  <HelpKINode Title="ConstructionSiteController.GetUsageMatrix method" Url="html/2080337754.htm" />
+  <HelpKINode Title="ConstructionSiteController.instruments field" Url="html/2030763369.htm" />
+  <HelpKINode Title="ConstructionSiteController.resources field" Url="html/1650418878.htm" />
+  <HelpKINode Title="ConstructionSiteController.sites field" Url="html/1908020279.htm" />
+  <HelpKINode Title="Contructor enumeration member" Url="html/262071699.htm" />
+  <HelpKINode Title="Contructor field" Url="html/598503807.htm" />
+  <HelpKINode Title="Culture property" Url="html/176649724.htm" />
+  <HelpKINode Title="customerName field" Url="html/1169580705.htm" />
+  <HelpKINode Title="Default property" Url="html/774703876.htm" />
+  <HelpKINode Title="defaultInstance field" Url="html/235738561.htm" />
+  <HelpKINode Title="DepartmentalInfo class" Url="html/2126757895.htm" />
+  <HelpKINode Title="DepartmentalInfo class" Url="html/525857389.htm" />
+  <HelpKINode Title="DepartmentalInfo class">
+    <HelpKINode Title="about DepartmentalInfo class" Url="html/525857389.htm" />
+    <HelpKINode Title="all members" Url="html/2126757895.htm" />
+    <HelpKINode Title="fields" Url="html/1066216421.htm" />
+    <HelpKINode Title="methods" Url="html/1080032677.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DepartmentalInfo.AddDepartmentInfo method" Url="html/411508097.htm" />
+  <HelpKINode Title="DepartmentalInfo.departmentEmailId field" Url="html/952992120.htm" />
+  <HelpKINode Title="DepartmentalInfo.departmentId field" Url="html/2134322224.htm" />
+  <HelpKINode Title="DepartmentalInfo.departmentMemberId field" Url="html/1111387734.htm" />
+  <HelpKINode Title="DepartmentalInfo.departmentName field" Url="html/877601224.htm" />
+  <HelpKINode Title="DepartmentalInfo.phoneNo field" Url="html/1043255921.htm" />
+  <HelpKINode Title="departmentEmailId field" Url="html/952992120.htm" />
+  <HelpKINode Title="departmentId field" Url="html/2134322224.htm" />
+  <HelpKINode Title="departmentMemberId field" Url="html/1111387734.htm" />
+  <HelpKINode Title="departmentName field" Url="html/877601224.htm" />
+  <HelpKINode Title="deptDetails field" Url="html/1372966994.htm" />
+  <HelpKINode Title="description field" Url="html/325673236.htm" />
+  <HelpKINode Title="design field" Url="html/527194930.htm" />
+  <HelpKINode Title="DesignInfo class" Url="html/419604453.htm" />
+  <HelpKINode Title="DesignInfo class" Url="html/552845120.htm" />
+  <HelpKINode Title="DesignInfo class">
+    <HelpKINode Title="about DesignInfo class" Url="html/552845120.htm" />
+    <HelpKINode Title="all members" Url="html/419604453.htm" />
+    <HelpKINode Title="fields" Url="html/1411704943.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DesignInfo.engineer field" Url="html/1832850283.htm" />
+  <HelpKINode Title="DesignInfo.estimate field" Url="html/188527514.htm" />
+  <HelpKINode Title="DesignInfo.ImageFile field" Url="html/2145350335.htm" />
+  <HelpKINode Title="DesignInfo.name field" Url="html/1752074126.htm" />
+  <HelpKINode Title="DesignInfo.softwareUsed field" Url="html/1583751600.htm" />
+  <HelpKINode Title="DesignInfo.timeRequired field" Url="html/404869159.htm" />
+  <HelpKINode Title="dob field" Url="html/553693294.htm" />
+  <HelpKINode Title="emailId field" Url="html/220404164.htm" />
+  <HelpKINode Title="emergencyContact field" Url="html/247308094.htm" />
+  <HelpKINode Title="employees field" Url="html/1656741952.htm" />
+  <HelpKINode Title="Engineer enumeration member" Url="html/262071699.htm" />
+  <HelpKINode Title="engineer field" Url="html/1832850283.htm" />
+  <HelpKINode Title="Engineer field" Url="html/2036446408.htm" />
+  <HelpKINode Title="estimate field" Url="html/188527514.htm" />
+  <HelpKINode Title="expertise field" Url="html/1718288527.htm" />
+  <HelpKINode Title="expertiseDomain field" Url="html/495476192.htm" />
+  <HelpKINode Title="ExpertiseInfo class" Url="html/1561556006.htm" />
+  <HelpKINode Title="ExpertiseInfo class" Url="html/1670415788.htm" />
+  <HelpKINode Title="ExpertiseInfo class">
+    <HelpKINode Title="about ExpertiseInfo class" Url="html/1561556006.htm" />
+    <HelpKINode Title="all members" Url="html/1670415788.htm" />
+    <HelpKINode Title="fields" Url="html/865084844.htm" />
+    <HelpKINode Title="methods" Url="html/1976571704.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExpertiseInfo.expertiseDomain field" Url="html/495476192.htm" />
+  <HelpKINode Title="ExpertiseInfo.GetExperience method" Url="html/1920883272.htm" />
+  <HelpKINode Title="ExpertiseInfo.GetExpertise method" Url="html/1661368354.htm" />
+  <HelpKINode Title="ExpertiseInfo.GetRegNumber method" Url="html/267993482.htm" />
+  <HelpKINode Title="ExpertiseInfo.Qualifications field" Url="html/1910847131.htm" />
+  <HelpKINode Title="ExpertiseInfo.RegistrationId field" Url="html/2021860645.htm" />
+  <HelpKINode Title="ExpertiseInfo.yearsOfExperience field" Url="html/225706677.htm" />
+  <HelpKINode Title="GetAmount method" Url="html/407393538.htm" />
+  <HelpKINode Title="GetAssigningHistory method" Url="html/905555899.htm" />
+  <HelpKINode Title="GetDetails method" Url="html/972193809.htm" />
+  <HelpKINode Title="GetEmployee method" Url="html/443659807.htm" />
+  <HelpKINode Title="GetExperience method" Url="html/1920883272.htm" />
+  <HelpKINode Title="GetExpertise method" Url="html/1661368354.htm" />
+  <HelpKINode Title="GetPatient method" Url="html/565748546.htm" />
+  <HelpKINode Title="GetRawMaterialList method" Url="html/1154596408.htm" />
+  <HelpKINode Title="GetRegNumber method" Url="html/267993482.htm" />
+  <HelpKINode Title="GetReport method" Url="html/2095394174.htm" />
+  <HelpKINode Title="GetResponsible method" Url="html/686144582.htm" />
+  <HelpKINode Title="GetStatus method" Url="html/1482251294.htm" />
+  <HelpKINode Title="GetStatus method" Url="html/953287525.htm" />
+  <HelpKINode Title="GetUsageMatrix method" Url="html/2080337754.htm" />
+  <HelpKINode Title="Grinder enumeration member" Url="html/1683502604.htm" />
+  <HelpKINode Title="Grinder field" Url="html/1852364945.htm" />
+  <HelpKINode Title="Helper enumeration member" Url="html/262071699.htm" />
+  <HelpKINode Title="Helper field" Url="html/1778055994.htm" />
+  <HelpKINode Title="id field" Url="html/1895015163.htm" />
+  <HelpKINode Title="ImageFile field" Url="html/2145350335.htm" />
+  <HelpKINode Title="instruments field" Url="html/2030763369.htm" />
+  <HelpKINode Title="InstrumentsWindow class" Url="html/2111732801.htm" />
+  <HelpKINode Title="InstrumentsWindow class" Url="html/31796161.htm" />
+  <HelpKINode Title="InstrumentsWindow class">
+    <HelpKINode Title="about InstrumentsWindow class" Url="html/31796161.htm" />
+    <HelpKINode Title="all members" Url="html/2111732801.htm" />
+    <HelpKINode Title="constructor" Url="html/1470672397.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InstrumentsWindow.InstrumentsWindow constructor" Url="html/1470672397.htm" />
+  <HelpKINode Title="IsRememberPassword field" Url="html/1077683744.htm" />
+  <HelpKINode Title="itemDescription field" Url="html/1222816525.htm" />
+  <HelpKINode Title="itemDescription field" Url="html/1608825573.htm" />
+  <HelpKINode Title="ItemGetUsage method" Url="html/698500897.htm" />
+  <HelpKINode Title="ItemGetUsage method" Url="html/774628511.htm" />
+  <HelpKINode Title="itemId field" Url="html/1345475222.htm" />
+  <HelpKINode Title="itemId field" Url="html/347802316.htm" />
+  <HelpKINode Title="itemName field" Url="html/271823042.htm" />
+  <HelpKINode Title="itemName field" Url="html/986215296.htm" />
+  <HelpKINode Title="itemTags field" Url="html/1336547982.htm" />
+  <HelpKINode Title="itemTags field" Url="html/1515959828.htm" />
+  <HelpKINode Title="itemType field" Url="html/1608954058.htm" />
+  <HelpKINode Title="itemType field" Url="html/181498744.htm" />
+  <HelpKINode Title="itemUsers field" Url="html/1934272005.htm" />
+  <HelpKINode Title="itemUsers field" Url="html/253809987.htm" />
+  <HelpKINode Title="Labour enumeration member" Url="html/262071699.htm" />
+  <HelpKINode Title="Labour field" Url="html/1369927367.htm" />
+  <HelpKINode Title="location field" Url="html/157921811.htm" />
+  <HelpKINode Title="LoginWindow class" Url="html/1566806557.htm" />
+  <HelpKINode Title="LoginWindow class" Url="html/1642715899.htm" />
+  <HelpKINode Title="LoginWindow class">
+    <HelpKINode Title="about LoginWindow class" Url="html/1642715899.htm" />
+    <HelpKINode Title="all members" Url="html/1566806557.htm" />
+    <HelpKINode Title="constructor" Url="html/689188387.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoginWindow.LoginWindow constructor" Url="html/689188387.htm" />
+  <HelpKINode Title="MainWindow class" Url="html/1000458020.htm" />
+  <HelpKINode Title="MainWindow class" Url="html/970505748.htm" />
+  <HelpKINode Title="MainWindow class">
+    <HelpKINode Title="about MainWindow class" Url="html/1000458020.htm" />
+    <HelpKINode Title="all members" Url="html/970505748.htm" />
+    <HelpKINode Title="constructor" Url="html/1315259298.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MainWindow.MainWindow constructor" Url="html/1315259298.htm" />
+  <HelpKINode Title="Mixer enumeration member" Url="html/1683502604.htm" />
+  <HelpKINode Title="Mixer field" Url="html/1394956462.htm" />
+  <HelpKINode Title="name field" Url="html/1041842754.htm" />
+  <HelpKINode Title="name field" Url="html/1193229163.htm" />
+  <HelpKINode Title="name field" Url="html/1752074126.htm" />
+  <HelpKINode Title="NewMethod method" Url="html/1351277059.htm" />
+  <HelpKINode Title="Password field" Url="html/100121108.htm" />
+  <HelpKINode Title="personalDetails field" Url="html/1503762004.htm" />
+  <HelpKINode Title="PersonalInfo class" Url="html/1167163210.htm" />
+  <HelpKINode Title="PersonalInfo class" Url="html/362754556.htm" />
+  <HelpKINode Title="PersonalInfo class">
+    <HelpKINode Title="about PersonalInfo class" Url="html/362754556.htm" />
+    <HelpKINode Title="all members" Url="html/1167163210.htm" />
+    <HelpKINode Title="fields" Url="html/1497329587.htm" />
+    <HelpKINode Title="methods" Url="html/788890368.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PersonalInfo.AddPersonalInfo method" Url="html/1126779263.htm" />
+  <HelpKINode Title="PersonalInfo.address field" Url="html/465662886.htm" />
+  <HelpKINode Title="PersonalInfo.dob field" Url="html/553693294.htm" />
+  <HelpKINode Title="PersonalInfo.emergencyContact field" Url="html/247308094.htm" />
+  <HelpKINode Title="PersonalInfo.name field" Url="html/1193229163.htm" />
+  <HelpKINode Title="PersonalInfo.phoneNumber field" Url="html/2038436340.htm" />
+  <HelpKINode Title="PersonalInfo.sex field" Url="html/253531135.htm" />
+  <HelpKINode Title="phoneNo field" Url="html/1043255921.htm" />
+  <HelpKINode Title="phoneNumber field" Url="html/2038436340.htm" />
+  <HelpKINode Title="Porter enumeration member" Url="html/262071699.htm" />
+  <HelpKINode Title="Porter field" Url="html/193092044.htm" />
+  <HelpKINode Title="Puller enumeration member" Url="html/1683502604.htm" />
+  <HelpKINode Title="Puller field" Url="html/2107174819.htm" />
+  <HelpKINode Title="Qualifications field" Url="html/1910847131.htm" />
+  <HelpKINode Title="RawMaterialInfo class" Url="html/1652985359.htm" />
+  <HelpKINode Title="RawMaterialInfo class" Url="html/2054289075.htm" />
+  <HelpKINode Title="RawMaterialInfo class">
+    <HelpKINode Title="about RawMaterialInfo class" Url="html/2054289075.htm" />
+    <HelpKINode Title="all members" Url="html/1652985359.htm" />
+    <HelpKINode Title="fields" Url="html/1678370593.htm" />
+    <HelpKINode Title="methods" Url="html/1954480823.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RawMaterialInfo.itemDescription field" Url="html/1608825573.htm" />
+  <HelpKINode Title="RawMaterialInfo.ItemGetUsage method" Url="html/698500897.htm" />
+  <HelpKINode Title="RawMaterialInfo.itemId field" Url="html/347802316.htm" />
+  <HelpKINode Title="RawMaterialInfo.itemName field" Url="html/986215296.htm" />
+  <HelpKINode Title="RawMaterialInfo.itemTags field" Url="html/1336547982.htm" />
+  <HelpKINode Title="RawMaterialInfo.itemType field" Url="html/181498744.htm" />
+  <HelpKINode Title="RawMaterialInfo.itemUsers field" Url="html/1934272005.htm" />
+  <HelpKINode Title="rawMaterialSupportedList field" Url="html/877002367.htm" />
+  <HelpKINode Title="RawMaterialTypeEnum enumeration" Url="html/436796132.htm" />
+  <HelpKINode Title="RawMaterialTypeEnum.Brick field" Url="html/181513941.htm" />
+  <HelpKINode Title="RawMaterialTypeEnum.Cement field" Url="html/235014664.htm" />
+  <HelpKINode Title="RawMaterialTypeEnum.Color field" Url="html/1730075732.htm" />
+  <HelpKINode Title="RawMaterialTypeEnum.Rod field" Url="html/1824539308.htm" />
+  <HelpKINode Title="RawMaterialTypeEnum.Sand field" Url="html/1689509027.htm" />
+  <HelpKINode Title="RawMaterialTypeEnum.Stone field" Url="html/1284544560.htm" />
+  <HelpKINode Title="RawMaterialTypeEnum.StoneChips field" Url="html/217362418.htm" />
+  <HelpKINode Title="RawMaterialTypeEnum.Wood field" Url="html/2069963611.htm" />
+  <HelpKINode Title="RawMaterialWindow class" Url="html/1657632559.htm" />
+  <HelpKINode Title="RawMaterialWindow class" Url="html/871740525.htm" />
+  <HelpKINode Title="RawMaterialWindow class">
+    <HelpKINode Title="about RawMaterialWindow class" Url="html/1657632559.htm" />
+    <HelpKINode Title="all members" Url="html/871740525.htm" />
+    <HelpKINode Title="constructor" Url="html/1650511382.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RawMaterialWindow.RawMaterialWindow constructor" Url="html/1650511382.htm" />
+  <HelpKINode Title="RegistrationId field" Url="html/2021860645.htm" />
+  <HelpKINode Title="relatedInstruments field" Url="html/1861986696.htm" />
+  <HelpKINode Title="relatedRawmaterials field" Url="html/1167824688.htm" />
+  <HelpKINode Title="relatedWorkers field" Url="html/1912267149.htm" />
+  <HelpKINode Title="releatedSupervisor field" Url="html/966027750.htm" />
+  <HelpKINode Title="resourceCulture field" Url="html/790962288.htm" />
+  <HelpKINode Title="resourceMan field" Url="html/897509669.htm" />
+  <HelpKINode Title="ResourceManager property" Url="html/434508399.htm" />
+  <HelpKINode Title="Resources class" Url="html/1656772804.htm" />
+  <HelpKINode Title="Resources class" Url="html/766953905.htm" />
+  <HelpKINode Title="Resources class">
+    <HelpKINode Title="about Resources class" Url="html/1656772804.htm" />
+    <HelpKINode Title="all members" Url="html/766953905.htm" />
+    <HelpKINode Title="constructor" Url="html/1821677537.htm" />
+    <HelpKINode Title="fields" Url="html/1439565885.htm" />
+    <HelpKINode Title="properties" Url="html/1959503833.htm" />
+  </HelpKINode>
+  <HelpKINode Title="resources field" Url="html/1650418878.htm" />
+  <HelpKINode Title="Resources.Culture property" Url="html/176649724.htm" />
+  <HelpKINode Title="Resources.resourceCulture field" Url="html/790962288.htm" />
+  <HelpKINode Title="Resources.resourceMan field" Url="html/897509669.htm" />
+  <HelpKINode Title="Resources.ResourceManager property" Url="html/434508399.htm" />
+  <HelpKINode Title="Resources.Resources constructor" Url="html/1821677537.htm" />
+  <HelpKINode Title="responsibilities field" Url="html/2026511093.htm" />
+  <HelpKINode Title="responsibilities field" Url="html/212937467.htm" />
+  <HelpKINode Title="Responsibility class" Url="html/1385860226.htm" />
+  <HelpKINode Title="Responsibility class" Url="html/799514988.htm" />
+  <HelpKINode Title="Responsibility class">
+    <HelpKINode Title="about Responsibility class" Url="html/1385860226.htm" />
+    <HelpKINode Title="all members" Url="html/799514988.htm" />
+    <HelpKINode Title="fields" Url="html/706194613.htm" />
+    <HelpKINode Title="methods" Url="html/1598343352.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Responsibility.description field" Url="html/325673236.htm" />
+  <HelpKINode Title="Responsibility.GetResponsible method" Url="html/686144582.htm" />
+  <HelpKINode Title="Responsibility.GetStatus method" Url="html/1482251294.htm" />
+  <HelpKINode Title="Responsibility.id field" Url="html/1895015163.htm" />
+  <HelpKINode Title="Responsibility.relatedInstruments field" Url="html/1861986696.htm" />
+  <HelpKINode Title="Responsibility.relatedRawmaterials field" Url="html/1167824688.htm" />
+  <HelpKINode Title="Responsibility.relatedWorkers field" Url="html/1912267149.htm" />
+  <HelpKINode Title="Responsibility.releatedSupervisor field" Url="html/966027750.htm" />
+  <HelpKINode Title="responsibilityName field" Url="html/1792121004.htm" />
+  <HelpKINode Title="RetrieveForgetPassword method" Url="html/202867644.htm" />
+  <HelpKINode Title="Rod enumeration member" Url="html/436796132.htm" />
+  <HelpKINode Title="Rod field" Url="html/1824539308.htm" />
+  <HelpKINode Title="Sand enumeration member" Url="html/436796132.htm" />
+  <HelpKINode Title="Sand field" Url="html/1689509027.htm" />
+  <HelpKINode Title="Settings class" Url="html/450526916.htm" />
+  <HelpKINode Title="Settings class" Url="html/491127809.htm" />
+  <HelpKINode Title="Settings class">
+    <HelpKINode Title="about Settings class" Url="html/491127809.htm" />
+    <HelpKINode Title="all members" Url="html/450526916.htm" />
+    <HelpKINode Title="fields" Url="html/733324354.htm" />
+    <HelpKINode Title="properties" Url="html/1023586054.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Settings.Default property" Url="html/774703876.htm" />
+  <HelpKINode Title="Settings.defaultInstance field" Url="html/235738561.htm" />
+  <HelpKINode Title="sex field" Url="html/253531135.htm" />
+  <HelpKINode Title="SiteBrowser class" Url="html/1129460086.htm" />
+  <HelpKINode Title="SiteBrowser class" Url="html/2083827607.htm" />
+  <HelpKINode Title="SiteBrowser class">
+    <HelpKINode Title="about SiteBrowser class" Url="html/2083827607.htm" />
+    <HelpKINode Title="all members" Url="html/1129460086.htm" />
+    <HelpKINode Title="constructor" Url="html/1938832533.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SiteBrowser.SiteBrowser constructor" Url="html/1938832533.htm" />
+  <HelpKINode Title="SiteInfo class" Url="html/1760268400.htm" />
+  <HelpKINode Title="SiteInfo class" Url="html/347739663.htm" />
+  <HelpKINode Title="SiteInfo class">
+    <HelpKINode Title="about SiteInfo class" Url="html/347739663.htm" />
+    <HelpKINode Title="all members" Url="html/1760268400.htm" />
+    <HelpKINode Title="fields" Url="html/1220903544.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SiteInfo.customerName field" Url="html/1169580705.htm" />
+  <HelpKINode Title="SiteInfo.design field" Url="html/527194930.htm" />
+  <HelpKINode Title="SiteInfo.location field" Url="html/157921811.htm" />
+  <HelpKINode Title="SiteInfo.name field" Url="html/1041842754.htm" />
+  <HelpKINode Title="SiteInfo.responsibilities field" Url="html/212937467.htm" />
+  <HelpKINode Title="SiteInfo.superViser field" Url="html/595685921.htm" />
+  <HelpKINode Title="SiteInfo.valuation field" Url="html/892500296.htm" />
+  <HelpKINode Title="SiteManager enumeration member" Url="html/262071699.htm" />
+  <HelpKINode Title="SiteManager field" Url="html/478609462.htm" />
+  <HelpKINode Title="sites field" Url="html/1908020279.htm" />
+  <HelpKINode Title="softwareUsed field" Url="html/1583751600.htm" />
+  <HelpKINode Title="StairCase enumeration member" Url="html/1683502604.htm" />
+  <HelpKINode Title="StairCase field" Url="html/1763534544.htm" />
+  <HelpKINode Title="status field" Url="html/2129764333.htm" />
+  <HelpKINode Title="Stone enumeration member" Url="html/436796132.htm" />
+  <HelpKINode Title="Stone field" Url="html/1284544560.htm" />
+  <HelpKINode Title="StoneChips enumeration member" Url="html/436796132.htm" />
+  <HelpKINode Title="StoneChips field" Url="html/217362418.htm" />
+  <HelpKINode Title="superViser field" Url="html/595685921.htm" />
+  <HelpKINode Title="Supplier enumeration member" Url="html/262071699.htm" />
+  <HelpKINode Title="Supplier field" Url="html/1775670768.htm" />
+  <HelpKINode Title="timeRequired field" Url="html/404869159.htm" />
+  <HelpKINode Title="UniqueId field" Url="html/1133818978.htm" />
+  <HelpKINode Title="UserId field" Url="html/1538827911.htm" />
+  <HelpKINode Title="ValidateUserString method" Url="html/343481201.htm" />
+  <HelpKINode Title="valuation field" Url="html/892500296.htm" />
+  <HelpKINode Title="Waiter enumeration member" Url="html/262071699.htm" />
+  <HelpKINode Title="Waiter field" Url="html/200371890.htm" />
+  <HelpKINode Title="WokerTypeEnum enumeration" Url="html/262071699.htm" />
+  <HelpKINode Title="WokerTypeEnum.Contructor field" Url="html/598503807.htm" />
+  <HelpKINode Title="WokerTypeEnum.Engineer field" Url="html/2036446408.htm" />
+  <HelpKINode Title="WokerTypeEnum.Helper field" Url="html/1778055994.htm" />
+  <HelpKINode Title="WokerTypeEnum.Labour field" Url="html/1369927367.htm" />
+  <HelpKINode Title="WokerTypeEnum.Porter field" Url="html/193092044.htm" />
+  <HelpKINode Title="WokerTypeEnum.SiteManager field" Url="html/478609462.htm" />
+  <HelpKINode Title="WokerTypeEnum.Supplier field" Url="html/1775670768.htm" />
+  <HelpKINode Title="WokerTypeEnum.Waiter field" Url="html/200371890.htm" />
+  <HelpKINode Title="Wood enumeration member" Url="html/436796132.htm" />
+  <HelpKINode Title="Wood field" Url="html/2069963611.htm" />
+  <HelpKINode Title="WorkerBrowser class" Url="html/1408277995.htm" />
+  <HelpKINode Title="WorkerBrowser class" Url="html/1868505748.htm" />
+  <HelpKINode Title="WorkerBrowser class">
+    <HelpKINode Title="about WorkerBrowser class" Url="html/1408277995.htm" />
+    <HelpKINode Title="all members" Url="html/1868505748.htm" />
+    <HelpKINode Title="constructor" Url="html/822215303.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorkerBrowser.WorkerBrowser constructor" Url="html/822215303.htm" />
+  <HelpKINode Title="WorkerInfo class" Url="html/1488252243.htm" />
+  <HelpKINode Title="WorkerInfo class" Url="html/511070955.htm" />
+  <HelpKINode Title="WorkerInfo class">
+    <HelpKINode Title="about WorkerInfo class" Url="html/511070955.htm" />
+    <HelpKINode Title="all members" Url="html/1488252243.htm" />
+    <HelpKINode Title="fields" Url="html/869164159.htm" />
+    <HelpKINode Title="methods" Url="html/1234592215.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorkerInfo.accessDetails field" Url="html/120986572.htm" />
+  <HelpKINode Title="WorkerInfo.assginedItems field" Url="html/1632557428.htm" />
+  <HelpKINode Title="WorkerInfo.CheckAccessForItems method" Url="html/840938835.htm" />
+  <HelpKINode Title="WorkerInfo.deptDetails field" Url="html/1372966994.htm" />
+  <HelpKINode Title="WorkerInfo.expertise field" Url="html/1718288527.htm" />
+  <HelpKINode Title="WorkerInfo.GetAssigningHistory method" Url="html/905555899.htm" />
+  <HelpKINode Title="WorkerInfo.GetDetails method" Url="html/972193809.htm" />
+  <HelpKINode Title="WorkerInfo.personalDetails field" Url="html/1503762004.htm" />
+  <HelpKINode Title="WorkerInfo.responsibilities field" Url="html/2026511093.htm" />
+  <HelpKINode Title="yearsOfExperience field" Url="html/225706677.htm" />
+</HelpKI>

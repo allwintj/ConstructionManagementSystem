@@ -135,6 +135,10 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CmsData\CmsData.csproj">
+      <Project>{F684489B-010C-4E0C-AF15-733D8A66CAD1}</Project>
+      <Name>CmsData</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CMSStorage\CMSStorage.csproj">
       <Project>{EF6B3478-943E-4A0C-A7E9-2E3502B86D88}</Project>
       <Name>CMSStorage</Name>

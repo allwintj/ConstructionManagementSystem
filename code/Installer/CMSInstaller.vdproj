@@ -15,25 +15,25 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_1F210E542BEA0C2EFB2CA1809F21A69A"
+        "OwnerKey" = "8:_293926E1D3C543649668FA1018E3B64F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_293926E1D3C543649668FA1018E3B64F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_426249F789E047479D137A80E2F591EF"
+        "MsmKey" = "8:_44E675F2760257627D6528ADDC158887"
         "OwnerKey" = "8:_293926E1D3C543649668FA1018E3B64F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_51D485BCB191ADDE75C6224E8E07E263"
-        "OwnerKey" = "8:_293926E1D3C543649668FA1018E3B64F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_9BFF20A78DF1F8B01D304236A50A9400"
+        "MsmKey" = "8:_F6C8873718B802DD36F4D05668601A48"
         "OwnerKey" = "8:_293926E1D3C543649668FA1018E3B64F"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -46,19 +46,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_426249F789E047479D137A80E2F591EF"
+        "OwnerKey" = "8:_1F210E542BEA0C2EFB2CA1809F21A69A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9BFF20A78DF1F8B01D304236A50A9400"
+        "OwnerKey" = "8:_44E675F2760257627D6528ADDC158887"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_51D485BCB191ADDE75C6224E8E07E263"
+        "OwnerKey" = "8:_F6C8873718B802DD36F4D05668601A48"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -166,49 +166,13 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_426249F789E047479D137A80E2F591EF"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:HmsDesign, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_426249F789E047479D137A80E2F591EF"
-                    {
-                    "Name" = "8:HmsDesign.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:HmsDesign.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_9229231F094748AEB5930C666528B643"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_51D485BCB191ADDE75C6224E8E07E263"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1F210E542BEA0C2EFB2CA1809F21A69A"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:CMSStorage, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_51D485BCB191ADDE75C6224E8E07E263"
-                    {
-                    "Name" = "8:CMSStorage.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:CMSStorage.dll"
             "TargetName" = "8:"
@@ -228,20 +192,41 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9BFF20A78DF1F8B01D304236A50A9400"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_44E675F2760257627D6528ADDC158887"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:ConstructionEngine, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_9BFF20A78DF1F8B01D304236A50A9400"
-                    {
-                    "Name" = "8:ConstructionEngine.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:ConstructionEngine.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9229231F094748AEB5930C666528B643"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F6C8873718B802DD36F4D05668601A48"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:HmsDesign, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                }
+            "SourcePath" = "8:HmsDesign.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9229231F094748AEB5930C666528B643"
@@ -274,6 +259,17 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_88B2F6BA030C434D96182CFD84945F28"
+                    {
+                    "Name" = "8:Technicise.com"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_D99DBE01512842B1BE38622730D1904B"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_9229231F094748AEB5930C666528B643"
@@ -316,7 +312,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Construction Management System"
         "ProductCode" = "8:{A324B360-CC4A-489E-9A5E-8CE3F0914EE8}"
-        "PackageCode" = "8:{0831B0F6-D371-467C-A566-DAB5573E0C45}"
+        "PackageCode" = "8:{B01F8EC3-013E-4E15-B205-CFBEF9FADF12}"
         "UpgradeCode" = "8:{A57EF9C0-7D8B-4A1C-B0C3-3D4C8E406CB5}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -324,12 +320,12 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:eKomfortZone"
+        "Manufacturer" = "8:Technicise.com"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:ConstructionManagementSystemInstaller"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:eKomfortZone"
+        "ARPCONTACT" = "8:Technicise.com"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -436,6 +432,34 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_119497E652034B06B4BEFF58451501EF"
+            {
+            "Name" = "8:Construction Management System"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_293926E1D3C543649668FA1018E3B64F"
+            "Folder" = "8:_88B2F6BA030C434D96182CFD84945F28"
+            "WorkingFolder" = "8:_9229231F094748AEB5930C666528B643"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FDB3C5051C8947298B07E9A011FAC52A"
+            {
+            "Name" = "8:Construction Management System"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_293926E1D3C543649668FA1018E3B64F"
+            "Folder" = "8:_F1A381796D924497B9428A50C0EF3163"
+            "WorkingFolder" = "8:_9229231F094748AEB5930C666528B643"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {

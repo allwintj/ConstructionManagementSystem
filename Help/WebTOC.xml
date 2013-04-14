@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="912d4372-2847-4a03-b96a-bf6c8acdd45f" Title="ConstructionManagementSystem.CmsData Namespace" Url="html/259803345.htm">
+    <HelpTOCNode Id="2a52bc25-45d5-43c1-947b-6f8ee8336c97" Title="AccessInfo Class" Url="html/575987123.htm">
+      <HelpTOCNode Title="AccessInfo Members" Url="html/2049523578.htm" />
+      <HelpTOCNode Id="8f41ec13-be30-48bb-9691-387e56b8936d" Title="AccessInfo Fields" Url="html/328560214.htm">
+        <HelpTOCNode Title="Password Field" Url="html/100121108.htm" />
+        <HelpTOCNode Title="UserId Field" Url="html/1538827911.htm" />
+        <HelpTOCNode Title="IsRememberPassword Field" Url="html/1077683744.htm" />
+        <HelpTOCNode Title="UniqueId Field" Url="html/1133818978.htm" />
+        <HelpTOCNode Title="emailId Field" Url="html/220404164.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8bd58e44-8a4c-4a45-8b7e-f78af7d404c4" Title="AccessInfo Methods" Url="html/356219869.htm">
+        <HelpTOCNode Title="AuthenticateUser Method " Url="html/1089015997.htm" />
+        <HelpTOCNode Title="RetrieveForgetPassword Method " Url="html/202867644.htm" />
+        <HelpTOCNode Title="ValidateUserString Method " Url="html/343481201.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f4b30f2b-31a0-4cc7-9f24-9c24b1090132" Title="BillingInfo Class" Url="html/1212753571.htm">
+      <HelpTOCNode Title="BillingInfo Members" Url="html/1152870358.htm" />
+      <HelpTOCNode Id="c2b90781-9ce8-4dff-b58a-400b44bd1508" Title="BillingInfo Fields" Url="html/1361382999.htm">
+        <HelpTOCNode Title="billAmount Field" Url="html/877913580.htm" />
+        <HelpTOCNode Title="billingId Field" Url="html/1594834234.htm" />
+        <HelpTOCNode Title="responsibilityName Field" Url="html/1792121004.htm" />
+        <HelpTOCNode Title="status Field" Url="html/2129764333.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="29bdb8d8-087d-44df-8d3b-38a183c1dca3" Title="BillingInfo Methods" Url="html/1590942812.htm">
+        <HelpTOCNode Title="NewMethod Method " Url="html/1351277059.htm" />
+        <HelpTOCNode Title="GetAmount Method " Url="html/407393538.htm" />
+        <HelpTOCNode Title="GetStatus Method " Url="html/953287525.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d04773fb-f066-437b-b083-25a8f9b84a38" Title="ConstructionInstruments Class" Url="html/835937629.htm">
+      <HelpTOCNode Title="ConstructionInstruments Members" Url="html/1952596775.htm" />
+      <HelpTOCNode Id="15475c70-e95d-4ca3-9d6a-a4bc77df5725" Title="ConstructionInstruments Fields" Url="html/2138942375.htm">
+        <HelpTOCNode Title="itemTags Field" Url="html/1515959828.htm" />
+        <HelpTOCNode Title="itemUsers Field" Url="html/253809987.htm" />
+        <HelpTOCNode Title="rawMaterialSupportedList Field" Url="html/877002367.htm" />
+        <HelpTOCNode Title="itemName Field" Url="html/271823042.htm" />
+        <HelpTOCNode Title="itemId Field" Url="html/1345475222.htm" />
+        <HelpTOCNode Title="itemDescription Field" Url="html/1222816525.htm" />
+        <HelpTOCNode Title="itemType Field" Url="html/1608954058.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f83ff039-fc97-4a2e-aee2-6e2619ea029f" Title="ConstructionInstruments Methods" Url="html/1739235622.htm">
+        <HelpTOCNode Title="GetRawMaterialList Method " Url="html/1154596408.htm" />
+        <HelpTOCNode Title="ItemGetUsage Method " Url="html/774628511.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="75538308-44c3-4422-aa5e-1ee64a11ae2d" Title="ConstructionSiteController Class" Url="html/881018288.htm">
+      <HelpTOCNode Title="ConstructionSiteController Members" Url="html/1086981002.htm" />
+      <HelpTOCNode Id="bc21bfe3-9a91-4b92-8b3a-7fc775b6b618" Title="ConstructionSiteController Fields" Url="html/2053212061.htm">
+        <HelpTOCNode Title="employees Field" Url="html/1656741952.htm" />
+        <HelpTOCNode Title="resources Field" Url="html/1650418878.htm" />
+        <HelpTOCNode Title="admins Field" Url="html/1309327657.htm" />
+        <HelpTOCNode Title="sites Field" Url="html/1908020279.htm" />
+        <HelpTOCNode Title="instruments Field" Url="html/2030763369.htm" />
+        <HelpTOCNode Title="billingItems Field" Url="html/573018756.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3c37626e-29ce-47d6-a6f7-7d8d8e4ae282" Title="ConstructionSiteController Methods" Url="html/1730456355.htm">
+        <HelpTOCNode Title="GetReport Method " Url="html/2095394174.htm" />
+        <HelpTOCNode Title="GetUsageMatrix Method " Url="html/2080337754.htm" />
+        <HelpTOCNode Title="GetEmployee Method " Url="html/443659807.htm" />
+        <HelpTOCNode Title="GetPatient Method " Url="html/565748546.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e1b27833-a54f-49a8-8d23-b9627046072c" Title="DepartmentalInfo Class" Url="html/525857389.htm">
+      <HelpTOCNode Title="DepartmentalInfo Members" Url="html/2126757895.htm" />
+      <HelpTOCNode Id="d6d7db79-0b4e-4da5-b478-adc08dfb017d" Title="DepartmentalInfo Fields" Url="html/1066216421.htm">
+        <HelpTOCNode Title="phoneNo Field" Url="html/1043255921.htm" />
+        <HelpTOCNode Title="departmentName Field" Url="html/877601224.htm" />
+        <HelpTOCNode Title="departmentId Field" Url="html/2134322224.htm" />
+        <HelpTOCNode Title="departmentMemberId Field" Url="html/1111387734.htm" />
+        <HelpTOCNode Title="departmentEmailId Field" Url="html/952992120.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="111dcd57-bd38-4a8a-8af6-62297ff6abca" Title="DepartmentalInfo Methods" Url="html/1080032677.htm">
+        <HelpTOCNode Title="AddDepartmentInfo Method " Url="html/411508097.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0c879b95-6466-4e4a-8279-4227ff0433d7" Title="DesignInfo Class" Url="html/552845120.htm">
+      <HelpTOCNode Title="DesignInfo Members" Url="html/419604453.htm" />
+      <HelpTOCNode Id="0bbdca47-a397-48bd-9f1b-3ede380ec0bd" Title="DesignInfo Fields" Url="html/1411704943.htm">
+        <HelpTOCNode Title="name Field" Url="html/1752074126.htm" />
+        <HelpTOCNode Title="softwareUsed Field" Url="html/1583751600.htm" />
+        <HelpTOCNode Title="engineer Field" Url="html/1832850283.htm" />
+        <HelpTOCNode Title="ImageFile Field" Url="html/2145350335.htm" />
+        <HelpTOCNode Title="estimate Field" Url="html/188527514.htm" />
+        <HelpTOCNode Title="timeRequired Field" Url="html/404869159.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cbe99826-cfa8-48ac-afa8-c75acccacb71" Title="ExpertiseInfo Class" Url="html/1561556006.htm">
+      <HelpTOCNode Title="ExpertiseInfo Members" Url="html/1670415788.htm" />
+      <HelpTOCNode Id="4dc128f3-c19f-4534-ac41-b33a05a081b4" Title="ExpertiseInfo Fields" Url="html/865084844.htm">
+        <HelpTOCNode Title="yearsOfExperience Field" Url="html/225706677.htm" />
+        <HelpTOCNode Title="Qualifications Field" Url="html/1910847131.htm" />
+        <HelpTOCNode Title="RegistrationId Field" Url="html/2021860645.htm" />
+        <HelpTOCNode Title="expertiseDomain Field" Url="html/495476192.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3b31d11a-03c1-45aa-b0bd-bc8c0b731c93" Title="ExpertiseInfo Methods" Url="html/1976571704.htm">
+        <HelpTOCNode Title="GetExperience Method " Url="html/1920883272.htm" />
+        <HelpTOCNode Title="GetRegNumber Method " Url="html/267993482.htm" />
+        <HelpTOCNode Title="GetExpertise Method " Url="html/1661368354.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ff575513-6e7e-4c16-952f-67a22c1816d8" Title="PersonalInfo Class" Url="html/362754556.htm">
+      <HelpTOCNode Title="PersonalInfo Members" Url="html/1167163210.htm" />
+      <HelpTOCNode Id="e840940c-752e-4db2-bb99-3478623be7ed" Title="PersonalInfo Fields" Url="html/1497329587.htm">
+        <HelpTOCNode Title="name Field" Url="html/1193229163.htm" />
+        <HelpTOCNode Title="address Field" Url="html/465662886.htm" />
+        <HelpTOCNode Title="phoneNumber Field" Url="html/2038436340.htm" />
+        <HelpTOCNode Title="sex Field" Url="html/253531135.htm" />
+        <HelpTOCNode Title="dob Field" Url="html/553693294.htm" />
+        <HelpTOCNode Title="emergencyContact Field" Url="html/247308094.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="60ab81a2-4c4e-47a3-afc5-bf8281174630" Title="PersonalInfo Methods" Url="html/788890368.htm">
+        <HelpTOCNode Title="AddPersonalInfo Method " Url="html/1126779263.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="55e094bc-24ce-4dc2-8546-36b9f90bd9f8" Title="RawMaterialInfo Class" Url="html/2054289075.htm">
+      <HelpTOCNode Title="RawMaterialInfo Members" Url="html/1652985359.htm" />
+      <HelpTOCNode Id="ec0cf9d9-1772-4837-9185-ab5a4b802206" Title="RawMaterialInfo Fields" Url="html/1678370593.htm">
+        <HelpTOCNode Title="itemTags Field" Url="html/1336547982.htm" />
+        <HelpTOCNode Title="itemUsers Field" Url="html/1934272005.htm" />
+        <HelpTOCNode Title="itemName Field" Url="html/986215296.htm" />
+        <HelpTOCNode Title="itemId Field" Url="html/347802316.htm" />
+        <HelpTOCNode Title="itemDescription Field" Url="html/1608825573.htm" />
+        <HelpTOCNode Title="itemType Field" Url="html/181498744.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5510f6ed-0802-47a3-8fb0-a76c086bab6f" Title="RawMaterialInfo Methods" Url="html/1954480823.htm">
+        <HelpTOCNode Title="ItemGetUsage Method " Url="html/698500897.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0eafe7f8-51b5-4ce2-88fa-bf34ebfdd06f" Title="Responsibility Class" Url="html/1385860226.htm">
+      <HelpTOCNode Title="Responsibility Members" Url="html/799514988.htm" />
+      <HelpTOCNode Id="4c156093-3777-4514-89f7-e7b487760014" Title="Responsibility Fields" Url="html/706194613.htm">
+        <HelpTOCNode Title="relatedInstruments Field" Url="html/1861986696.htm" />
+        <HelpTOCNode Title="relatedRawmaterials Field" Url="html/1167824688.htm" />
+        <HelpTOCNode Title="relatedWorkers Field" Url="html/1912267149.htm" />
+        <HelpTOCNode Title="description Field" Url="html/325673236.htm" />
+        <HelpTOCNode Title="id Field" Url="html/1895015163.htm" />
+        <HelpTOCNode Title="releatedSupervisor Field" Url="html/966027750.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2f5d01b9-b4a5-471b-9d05-fa84a6bbc15c" Title="Responsibility Methods" Url="html/1598343352.htm">
+        <HelpTOCNode Title="GetStatus Method " Url="html/1482251294.htm" />
+        <HelpTOCNode Title="GetResponsible Method " Url="html/686144582.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0811d893-07d8-4991-9616-0fe7a54b87df" Title="SiteInfo Class" Url="html/347739663.htm">
+      <HelpTOCNode Title="SiteInfo Members" Url="html/1760268400.htm" />
+      <HelpTOCNode Id="e99c04cc-aa1d-4e32-bc33-20d071f57dae" Title="SiteInfo Fields" Url="html/1220903544.htm">
+        <HelpTOCNode Title="responsibilities Field" Url="html/212937467.htm" />
+        <HelpTOCNode Title="name Field" Url="html/1041842754.htm" />
+        <HelpTOCNode Title="location Field" Url="html/157921811.htm" />
+        <HelpTOCNode Title="customerName Field" Url="html/1169580705.htm" />
+        <HelpTOCNode Title="valuation Field" Url="html/892500296.htm" />
+        <HelpTOCNode Title="design Field" Url="html/527194930.htm" />
+        <HelpTOCNode Title="superViser Field" Url="html/595685921.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="07b856bd-2283-4bca-894b-3e6d1a1d5af3" Title="WorkerInfo Class" Url="html/511070955.htm">
+      <HelpTOCNode Title="WorkerInfo Members" Url="html/1488252243.htm" />
+      <HelpTOCNode Id="b20ab0fd-f607-445d-929f-7a5d4e5c7599" Title="WorkerInfo Fields" Url="html/869164159.htm">
+        <HelpTOCNode Title="assginedItems Field" Url="html/1632557428.htm" />
+        <HelpTOCNode Title="responsibilities Field" Url="html/2026511093.htm" />
+        <HelpTOCNode Title="deptDetails Field" Url="html/1372966994.htm" />
+        <HelpTOCNode Title="personalDetails Field" Url="html/1503762004.htm" />
+        <HelpTOCNode Title="accessDetails Field" Url="html/120986572.htm" />
+        <HelpTOCNode Title="expertise Field" Url="html/1718288527.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="42067884-25db-4ab6-b908-ea5fcc8e275c" Title="WorkerInfo Methods" Url="html/1234592215.htm">
+        <HelpTOCNode Title="GetAssigningHistory Method " Url="html/905555899.htm" />
+        <HelpTOCNode Title="GetDetails Method " Url="html/972193809.htm" />
+        <HelpTOCNode Title="CheckAccessForItems Method " Url="html/840938835.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="RawMaterialTypeEnum Enumeration" Url="html/436796132.htm" />
+    <HelpTOCNode Title="WokerTypeEnum Enumeration" Url="html/262071699.htm" />
+    <HelpTOCNode Title="ConstructionInstrumentsTypeEnum Enumeration" Url="html/1683502604.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="5683a3eb-37df-4d63-9fce-29ef5558935b" Title="CMSGUI Namespace" Url="html/159291287.htm">
+    <HelpTOCNode Id="60ebef15-fdb5-4946-b382-23650083e157" Title="App Class" Url="html/221994218.htm">
+      <HelpTOCNode Title="App Members" Url="html/1792056295.htm" />
+      <HelpTOCNode Title="App Members" Url="html/1792056295.htm" />
+      <HelpTOCNode Title="App Constructor " Url="html/539698418.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="45b6717a-0222-45de-98ef-2564e34eecad" Title="App Class" Url="html/221994218.htm">
+      <HelpTOCNode Title="App Members" Url="html/1792056295.htm" />
+      <HelpTOCNode Title="App Members" Url="html/1792056295.htm" />
+      <HelpTOCNode Title="App Constructor " Url="html/539698418.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="48795391-b488-4f80-a830-cf6cf9c62184" Title="BillingWindow Class" Url="html/1977005145.htm">
+      <HelpTOCNode Title="BillingWindow Members" Url="html/1655098306.htm" />
+      <HelpTOCNode Title="BillingWindow Members" Url="html/1655098306.htm" />
+      <HelpTOCNode Title="BillingWindow Constructor " Url="html/1043348951.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5551ba94-cfe8-49dd-a0c8-9355ceebbcab" Title="BillingWindow Class" Url="html/1977005145.htm">
+      <HelpTOCNode Title="BillingWindow Members" Url="html/1655098306.htm" />
+      <HelpTOCNode Title="BillingWindow Members" Url="html/1655098306.htm" />
+      <HelpTOCNode Title="BillingWindow Constructor " Url="html/1043348951.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5f445738-e93c-4c26-b119-fbd3703d8030" Title="InstrumentsWindow Class" Url="html/31796161.htm">
+      <HelpTOCNode Title="InstrumentsWindow Members" Url="html/2111732801.htm" />
+      <HelpTOCNode Title="InstrumentsWindow Members" Url="html/2111732801.htm" />
+      <HelpTOCNode Title="InstrumentsWindow Constructor " Url="html/1470672397.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d43f6b3e-d8dc-44dd-be50-8fa457f1e480" Title="InstrumentsWindow Class" Url="html/31796161.htm">
+      <HelpTOCNode Title="InstrumentsWindow Members" Url="html/2111732801.htm" />
+      <HelpTOCNode Title="InstrumentsWindow Members" Url="html/2111732801.htm" />
+      <HelpTOCNode Title="InstrumentsWindow Constructor " Url="html/1470672397.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1d827f3e-9b94-44a6-abfd-46971ee7fe23" Title="LoginWindow Class" Url="html/1642715899.htm">
+      <HelpTOCNode Title="LoginWindow Members" Url="html/1566806557.htm" />
+      <HelpTOCNode Title="LoginWindow Members" Url="html/1566806557.htm" />
+      <HelpTOCNode Title="LoginWindow Constructor " Url="html/689188387.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fc59936a-5e21-4406-b0d7-cb50aad7c3dd" Title="LoginWindow Class" Url="html/1642715899.htm">
+      <HelpTOCNode Title="LoginWindow Members" Url="html/1566806557.htm" />
+      <HelpTOCNode Title="LoginWindow Members" Url="html/1566806557.htm" />
+      <HelpTOCNode Title="LoginWindow Constructor " Url="html/689188387.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fd49ce05-9c8d-47f7-8643-f67f59abc6c4" Title="MainWindow Class" Url="html/1000458020.htm">
+      <HelpTOCNode Title="MainWindow Members" Url="html/970505748.htm" />
+      <HelpTOCNode Title="MainWindow Members" Url="html/970505748.htm" />
+      <HelpTOCNode Title="MainWindow Constructor " Url="html/1315259298.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="24129b0e-967a-4e24-990f-eaf81f27c127" Title="MainWindow Class" Url="html/1000458020.htm">
+      <HelpTOCNode Title="MainWindow Members" Url="html/970505748.htm" />
+      <HelpTOCNode Title="MainWindow Members" Url="html/970505748.htm" />
+      <HelpTOCNode Title="MainWindow Constructor " Url="html/1315259298.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b4a3dbff-a496-4199-94a7-a7c9d6b38261" Title="RawMaterialWindow Class" Url="html/1657632559.htm">
+      <HelpTOCNode Title="RawMaterialWindow Members" Url="html/871740525.htm" />
+      <HelpTOCNode Title="RawMaterialWindow Members" Url="html/871740525.htm" />
+      <HelpTOCNode Title="RawMaterialWindow Constructor " Url="html/1650511382.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9f19e229-5759-458f-b675-11c93ef37c83" Title="RawMaterialWindow Class" Url="html/1657632559.htm">
+      <HelpTOCNode Title="RawMaterialWindow Members" Url="html/871740525.htm" />
+      <HelpTOCNode Title="RawMaterialWindow Members" Url="html/871740525.htm" />
+      <HelpTOCNode Title="RawMaterialWindow Constructor " Url="html/1650511382.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="dd9d8f54-3de9-4602-bf2c-a1d20e130606" Title="SiteBrowser Class" Url="html/2083827607.htm">
+      <HelpTOCNode Title="SiteBrowser Members" Url="html/1129460086.htm" />
+      <HelpTOCNode Title="SiteBrowser Members" Url="html/1129460086.htm" />
+      <HelpTOCNode Title="SiteBrowser Constructor " Url="html/1938832533.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7233b6b2-b795-4614-8a2e-3c7c2066f488" Title="SiteBrowser Class" Url="html/2083827607.htm">
+      <HelpTOCNode Title="SiteBrowser Members" Url="html/1129460086.htm" />
+      <HelpTOCNode Title="SiteBrowser Members" Url="html/1129460086.htm" />
+      <HelpTOCNode Title="SiteBrowser Constructor " Url="html/1938832533.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="111e0d82-880f-4366-99f3-70aa55ee8f2c" Title="WorkerBrowser Class" Url="html/1408277995.htm">
+      <HelpTOCNode Title="WorkerBrowser Members" Url="html/1868505748.htm" />
+      <HelpTOCNode Title="WorkerBrowser Members" Url="html/1868505748.htm" />
+      <HelpTOCNode Title="WorkerBrowser Constructor " Url="html/822215303.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="27a6dd48-fb9f-4397-bb7c-c2d8e3333580" Title="WorkerBrowser Class" Url="html/1408277995.htm">
+      <HelpTOCNode Title="WorkerBrowser Members" Url="html/1868505748.htm" />
+      <HelpTOCNode Title="WorkerBrowser Members" Url="html/1868505748.htm" />
+      <HelpTOCNode Title="WorkerBrowser Constructor " Url="html/822215303.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="390eeff3-1d51-4a6c-b663-674017b7a22d" Title="CMSGUI.Properties Namespace" Url="html/104865227.htm">
+    <HelpTOCNode Id="dd9c3264-5673-463a-aef0-8060c0690c70" Title="Resources Class" Url="html/1656772804.htm">
+      <HelpTOCNode Title="Resources Members" Url="html/766953905.htm" />
+      <HelpTOCNode Title="Resources Constructor " Url="html/1821677537.htm" />
+      <HelpTOCNode Id="6d794236-77dd-439c-aadb-ffd80894d958" Title="Resources Fields" Url="html/1439565885.htm">
+        <HelpTOCNode Title="resourceMan Field" Url="html/897509669.htm" />
+        <HelpTOCNode Title="resourceCulture Field" Url="html/790962288.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="07e5e830-57ff-42f7-931a-0ace0a6c53f0" Title="Resources Properties" Url="html/1959503833.htm">
+        <HelpTOCNode Title="ResourceManager Property " Url="html/434508399.htm" />
+        <HelpTOCNode Title="Culture Property " Url="html/176649724.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dde95a4a-07db-4577-9e36-3ded1068e67d" Title="Settings Class" Url="html/491127809.htm">
+      <HelpTOCNode Title="Settings Members" Url="html/450526916.htm" />
+      <HelpTOCNode Id="92f93ae7-cbda-43bf-a89f-5e6d39439ae9" Title="Settings Fields" Url="html/733324354.htm">
+        <HelpTOCNode Title="defaultInstance Field" Url="html/235738561.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="67c07210-09af-46dd-969e-5d645d8f67e8" Title="Settings Properties" Url="html/1023586054.htm">
+        <HelpTOCNode Title="Default Property " Url="html/774703876.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="00dad4e6-c963-42fb-abe5-96ef85fea430" Title="CMSStorage Namespace" Url="html/516726414.htm">
+    <HelpTOCNode Title="CMSStorage Class" Url="html/1394862953.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="cc8f45a8-3025-4484-a37b-a28f70187634" Title="ConstructionEngine Namespace" Url="html/1953328974.htm">
+    <HelpTOCNode Title="CMSEngine Class" Url="html/182316424.htm" />
+  </HelpTOCNode>
+</HelpTOC>
