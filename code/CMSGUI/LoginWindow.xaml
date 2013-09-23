@@ -1,18 +1,26 @@
 ﻿<Window x:Class="CMSGUI.LoginWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="LoginWindow" Height="388" Width="502">
-    <Expander IsExpanded="True" Background="Gray" Header="Login" Name="expander1" DockPanel.Dock="Left" Height="486" Width="476">
+        Title="LoginWindow" Height="462" Width="516">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/CMSCommonStyle;component/Commonstyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Expander IsExpanded="True" Background="Gray" Header="Login" Name="expander1" DockPanel.Dock="Left" >
         <UniformGrid Rows="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <Label>Name</Label>
             <TextBox Width="200" Height="40"></TextBox>
             <Label>Password</Label>
             <PasswordBox  Width="200" Height="40"></PasswordBox>
-            <UniformGrid Columns="1">
-                <CheckBox>Remember Password</CheckBox>
-                <Label >Forgot Password</Label>
-            </UniformGrid>
-            <Button  Width="200" Height="40">Login</Button>
+            <Label >Forgot Password</Label>
+            <CheckBox>Remember Password</CheckBox>
+            <Label></Label>
+
+            <Button Style="{StaticResource BtnStyle}" Width="200" Height="40">Login</Button>
         </UniformGrid>
     </Expander>
 </Window>

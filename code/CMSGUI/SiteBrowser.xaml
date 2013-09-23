@@ -2,12 +2,22 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="SiteBrowser" Height="303" Width="1023">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/CMSCommonStyle;component/Commonstyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    
+    
     <DockPanel LastChildFill="True">
         <UniformGrid Height="30"  DockPanel.Dock="Top" Rows="1">
-            <Button Content="Show sites" Margin="10 0" ></Button>
-            <Button Content="Add New" Name="addBtn"  Margin="10 0" ></Button>
-            <Button Content="Delete" Margin="10 0" Name="deleteBtn" ></Button>
-            <Button Content="Print" Margin="10 0" Name="printBtn" IsEnabled="True" ></Button>
+            <Button Style="{StaticResource BtnStyle}" Content="Show sites" Margin="10 0" ></Button>
+            <Button Style="{StaticResource BtnStyle}" Content="Add New" Name="addBtn"  Margin="10 0" ></Button>
+            <Button Style="{StaticResource BtnStyle}" Content="Delete" Margin="10 0" Name="deleteBtn" ></Button>
+            <Button Style="{StaticResource BtnStyle}" Content="Print" Margin="10 0" Name="printBtn" IsEnabled="True" ></Button>
         </UniformGrid>
         <ListView Name="businessPersonListView" DockPanel.Dock="Bottom"  
                   IsSynchronizedWithCurrentItem="True">

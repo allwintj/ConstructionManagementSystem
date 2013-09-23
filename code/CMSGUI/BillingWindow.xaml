@@ -3,6 +3,16 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
               xmlns:sys="clr-namespace:System;assembly=mscorlib"
         Title="Billing Window" Height="857" Width="864">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/CMSCommonStyle;component/Commonstyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    
+    
     <DockPanel>
         <UniformGrid DockPanel.Dock="Top" Rows="1">
             <Label Content="Date:"></Label>
@@ -11,8 +21,8 @@
             <TextBlock Name="invoiceNumberTB" Background="#FFA39797"></TextBlock>
         </UniformGrid>
         <UniformGrid Rows="1" Height="30" DockPanel.Dock="Top">
-            <Button Content="site" Name="siteSelectBtn"></Button>
-            <Button Content="Seller" ></Button>
+            <Button  Style="{StaticResource BtnStyle}" Content="site" Name="siteSelectBtn"></Button>
+            <Button  Style="{StaticResource BtnStyle}" Content="Seller" ></Button>
         </UniformGrid>
         <UniformGrid Height="80"  DockPanel.Dock="Top" Rows="1">
             <TextBox Name="siteInfoTb" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="3" Height="57">site 001</TextBox>
@@ -35,13 +45,13 @@
         </DockPanel>
 
         <DockPanel DockPanel.Dock="Bottom" Height="40">
-            <Button DockPanel.Dock="Left" Name="calculateTotalBtn" Content="Total" Width="260" HorizontalContentAlignment="Right" FontWeight="Bold"></Button>
-            <Label DockPanel.Dock="Left"  Name="totalNoOfItems" Width="100"></Label>
+            <Button  Style="{StaticResource BtnStyle}" DockPanel.Dock="Left" Name="calculateTotalBtn" Content="Total" Width="260" HorizontalContentAlignment="Right" FontWeight="Bold"></Button>
+            <Label  DockPanel.Dock="Left"  Name="totalNoOfItems" Width="100"></Label>
             <Label DockPanel.Dock="Left"  Name="itemUnit" Width="300" HorizontalAlignment="Left" ></Label>
             <Label  DockPanel.Dock="Left" Name="totalAmountLabel" Width="100"></Label>
         </DockPanel>
         <DockPanel DockPanel.Dock="Bottom" Height="40">
-            <Button DockPanel.Dock="Left" Content="VAT" Name="calculateVATBtn" Width="260" HorizontalContentAlignment="Right" FontWeight="Bold"></Button>
+            <Button  Style="{StaticResource BtnStyle}" DockPanel.Dock="Left" Content="VAT" Name="calculateVATBtn" Width="260" HorizontalContentAlignment="Right" FontWeight="Bold"></Button>
             <Label DockPanel.Dock="Left"  Width="100"></Label>
             <Label DockPanel.Dock="Left" Width="300" HorizontalAlignment="Left" ></Label>
             <Label  DockPanel.Dock="Left" Name="vatAmount" Width="100"></Label>
