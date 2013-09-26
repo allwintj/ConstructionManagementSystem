@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMSGUI", "CMSGUI\CMSGUI.csproj", "{63812868-E137-4E66-B778-1F0F18A9016E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructionEngine", "ConstructionEngine\ConstructionEngine.csproj", "{5DC4ABF9-B453-4A86-B0CB-C260BDE4B170}"
@@ -10,8 +10,6 @@ EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CMSInstaller", "Installer\CMSInstaller.vdproj", "{4FFB3805-29AE-4E0B-ACDB-1F34852B89CB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmsData", "CmsData\CmsData.csproj", "{F684489B-010C-4E0C-AF15-733D8A66CAD1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMSStyle", "CMSStyle\CMSStyle.csproj", "{3BA2515A-6BD7-4ABE-9539-DE3A30115C21}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMSCommonStyle", "CMSCommonStyle\CMSCommonStyle.csproj", "{943CB475-76CF-4842-BE87-845F2E660D62}"
 EndProject
@@ -77,16 +75,6 @@ Global
 		{F684489B-010C-4E0C-AF15-733D8A66CAD1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{F684489B-010C-4E0C-AF15-733D8A66CAD1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{F684489B-010C-4E0C-AF15-733D8A66CAD1}.Release|x86.ActiveCfg = Release|Any CPU
-		{3BA2515A-6BD7-4ABE-9539-DE3A30115C21}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{3BA2515A-6BD7-4ABE-9539-DE3A30115C21}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{3BA2515A-6BD7-4ABE-9539-DE3A30115C21}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{3BA2515A-6BD7-4ABE-9539-DE3A30115C21}.Debug|x86.ActiveCfg = Debug|x86
-		{3BA2515A-6BD7-4ABE-9539-DE3A30115C21}.Debug|x86.Build.0 = Debug|x86
-		{3BA2515A-6BD7-4ABE-9539-DE3A30115C21}.Release|Any CPU.ActiveCfg = Release|x86
-		{3BA2515A-6BD7-4ABE-9539-DE3A30115C21}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{3BA2515A-6BD7-4ABE-9539-DE3A30115C21}.Release|Mixed Platforms.Build.0 = Release|x86
-		{3BA2515A-6BD7-4ABE-9539-DE3A30115C21}.Release|x86.ActiveCfg = Release|x86
-		{3BA2515A-6BD7-4ABE-9539-DE3A30115C21}.Release|x86.Build.0 = Release|x86
 		{943CB475-76CF-4842-BE87-845F2E660D62}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{943CB475-76CF-4842-BE87-845F2E660D62}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{943CB475-76CF-4842-BE87-845F2E660D62}.Debug|Mixed Platforms.Build.0 = Debug|x86
